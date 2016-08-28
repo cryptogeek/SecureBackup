@@ -1,0 +1,24 @@
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\getTicket\bin\Release\getTicket.dll
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\getTicket\bin\Release\getTicket.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\getTicket\obj\Release\getTicketLib.csprojResolveAssemblyReference.cache
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\getTicket\obj\Release\getTicket.dll
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\getTicket\obj\Release\getTicket.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\getTicket\bin\Release\getTicketLib.dll
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\getTicket\bin\Release\getTicketLib.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\getTicket\obj\Release\getTicketLib.csprojResolveAssemblyReference.cache
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\getTicket\obj\Release\getTicketLib.dll
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\getTicket\obj\Release\getTicketLib.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\getTicketLib\obj\Release\getTicketLib.csprojResolveAssemblyReference.cache
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\getTicketLib\obj\Release\getTicketLib.dll
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\getTicketLib\obj\Release\getTicketLib.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\getTicketLib\bin\Release\getTicketLib.dll
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\getTicketLib\bin\Release\getTicketLib.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\getTicketLib\bin\Release\memStorageLib.dll
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\getTicketLib\bin\Release\memStorageLib.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\getTicketLib\bin\Release\getTicketLib.dll
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\getTicketLib\bin\Release\getTicketLib.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\getTicketLib\bin\Release\memStorageLib.dll
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\getTicketLib\bin\Release\memStorageLib.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\getTicketLib\obj\Release\getTicketLib.csprojResolveAssemblyReference.cache
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\getTicketLib\obj\Release\getTicketLib.dll
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\getTicketLib\obj\Release\getTicketLib.pdb

@@ -1,0 +1,10 @@
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\multiLang\obj\Release\multiLangLib.csprojResolveAssemblyReference.cache
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\multiLang\bin\Release\multiLangLib.dll
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\multiLang\bin\Release\multiLangLib.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\multiLang\obj\Release\multiLangLib.dll
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\multiLang\obj\Release\multiLangLib.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\multiLangLib\bin\Release\multiLangLib.dll
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\multiLangLib\bin\Release\multiLangLib.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\multiLangLib\obj\Release\multiLangLib.csprojResolveAssemblyReference.cache
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\multiLangLib\obj\Release\multiLangLib.dll
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\multiLangLib\obj\Release\multiLangLib.pdb

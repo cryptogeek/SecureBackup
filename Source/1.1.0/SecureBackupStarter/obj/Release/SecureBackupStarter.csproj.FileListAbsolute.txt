@@ -1,0 +1,35 @@
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupStarter\SecureBackupStarter\bin\Release\SecureBackup.exe.config
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupStarter\SecureBackupStarter\bin\Release\SecureBackup.exe
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupStarter\SecureBackupStarter\bin\Release\SecureBackup.pdb
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupStarter\SecureBackupStarter\obj\Release\SecureBackup.exe
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupStarter\SecureBackupStarter\obj\Release\SecureBackup.pdb
+C:\Users\9s7df\Dropbox\doc\SecureBackupStarter\SecureBackupStarter\bin\Release\SecureBackup.exe.config
+C:\Users\9s7df\Dropbox\doc\SecureBackupStarter\SecureBackupStarter\obj\Release\SecureBackup.exe
+C:\Users\9s7df\Dropbox\doc\SecureBackupStarter\SecureBackupStarter\obj\Release\SecureBackup.pdb
+C:\Users\9s7df\Dropbox\doc\SecureBackupStarter\SecureBackupStarter\bin\Release\SecureBackup.exe
+C:\Users\9s7df\Dropbox\doc\SecureBackupStarter\SecureBackupStarter\bin\Release\SecureBackup.pdb
+C:\Users\9s7df\Dropbox\doc\SecureBackupStarter\SecureBackupStarter\obj\Release\SecureBackupStarter.csprojResolveAssemblyReference.cache
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupStarter\SecureBackupStarter\bin\Release\SecureBackup.exe.config
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupStarter\SecureBackupStarter\obj\Release\SecureBackup.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupStarter\SecureBackupStarter\obj\Release\SecureBackup.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupStarter\SecureBackupStarter\bin\Release\SecureBackup.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupStarter\SecureBackupStarter\bin\Release\SecureBackup.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupStarter\SecureBackupStarter\obj\Release\SecureBackupStarter.csprojResolveAssemblyReference.cache
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupStarter\bin\Release\SecureBackup.exe.config
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupStarter\obj\Release\SecureBackup.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupStarter\obj\Release\SecureBackup.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupStarter\bin\Release\SecureBackup.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupStarter\bin\Release\SecureBackup.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupStarter\obj\Release\SecureBackupStarter.csprojResolveAssemblyReference.cache
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.1.0\Source\SecureBackup\SecureBackupStarter\bin\Release\SecureBackup.exe.config
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.1.0\Source\SecureBackup\SecureBackupStarter\obj\Release\SecureBackup.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.1.0\Source\SecureBackup\SecureBackupStarter\obj\Release\SecureBackup.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupStarter\bin\Release\SecureBackup.exe.config
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupStarter\obj\Release\SecureBackup.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupStarter\obj\Release\SecureBackup.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupStarter\bin\Release\SecureBackup.exe.config
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupStarter\obj\Release\SecureBackup.exe
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupStarter\obj\Release\SecureBackup.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupStarter\bin\Release\SecureBackup.exe
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupStarter\bin\Release\SecureBackup.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupStarter\obj\Release\SecureBackupStarter.csprojResolveAssemblyReference.cache

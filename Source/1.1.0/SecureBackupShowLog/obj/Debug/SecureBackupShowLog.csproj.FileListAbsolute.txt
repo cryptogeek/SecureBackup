@@ -1,0 +1,7 @@
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupShowLog\bin\Debug\WinSCP.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupShowLog\bin\Debug\SecureBackupShowLog.exe.config
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupShowLog\bin\Debug\SecureBackupShowLog.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupShowLog\bin\Debug\SecureBackupShowLog.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupShowLog\bin\Debug\WinSCPnet.dll
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupShowLog\obj\Debug\SecureBackupShowLog.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupShowLog\obj\Debug\SecureBackupShowLog.pdb

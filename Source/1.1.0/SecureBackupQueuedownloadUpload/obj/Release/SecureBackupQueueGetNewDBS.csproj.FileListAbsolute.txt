@@ -1,0 +1,10 @@
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupQueueGetNewDBS\SecureBackupQueue\bin\Release\SecureBackupQueueGetNewDBS.exe.config
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupQueueGetNewDBS\SecureBackupQueue\bin\Release\SecureBackupQueueGetNewDBS.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupQueueGetNewDBS\SecureBackupQueue\bin\Release\SecureBackupQueueGetNewDBS.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupQueueGetNewDBS\SecureBackupQueue\obj\Release\SecureBackupQueueGetNewDBS.csprojResolveAssemblyReference.cache
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupQueueGetNewDBS\SecureBackupQueue\obj\Release\SecureBackupQueueGetNewDBS.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupQueueGetNewDBS\SecureBackupQueue\obj\Release\SecureBackupQueueGetNewDBS.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupQueuedownloadUpload\SecureBackupQueue\bin\Release\SecureBackupQueueGetNewDBS.exe.config
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupQueuedownloadUpload\SecureBackupQueue\obj\Release\SecureBackupQueueGetNewDBS.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupQueuedownloadUpload\SecureBackupQueue\obj\Release\SecureBackupQueueGetNewDBS.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupQueuedownloadUpload\SecureBackupQueue\bin\Release\SecureBackupQueuedownloadUpload.exe.config

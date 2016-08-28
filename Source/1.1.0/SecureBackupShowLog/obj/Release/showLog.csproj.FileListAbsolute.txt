@@ -1,0 +1,32 @@
+C:\Users\9s7df\Dropbox\doc\SecureBackupShowLog\showLog\bin\Release\SecureBackupShowLog.exe.config
+C:\Users\9s7df\Dropbox\doc\SecureBackupShowLog\showLog\bin\Release\WinSCP.exe
+C:\Users\9s7df\Dropbox\doc\SecureBackupShowLog\showLog\bin\Release\SecureBackupShowLog.exe
+C:\Users\9s7df\Dropbox\doc\SecureBackupShowLog\showLog\bin\Release\SecureBackupShowLog.pdb
+C:\Users\9s7df\Dropbox\doc\SecureBackupShowLog\showLog\bin\Release\WinSCPnet.dll
+C:\Users\9s7df\Dropbox\doc\SecureBackupShowLog\showLog\obj\Release\showLog.csprojResolveAssemblyReference.cache
+C:\Users\9s7df\Dropbox\doc\SecureBackupShowLog\showLog\obj\Release\SecureBackupShowLog.exe
+C:\Users\9s7df\Dropbox\doc\SecureBackupShowLog\showLog\obj\Release\SecureBackupShowLog.pdb
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupShowLog\showLog\bin\Release\SecureBackupShowLog.exe.config
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupShowLog\showLog\obj\Release\SecureBackupShowLog.exe
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupShowLog\showLog\obj\Release\SecureBackupShowLog.pdb
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupShowLog\showLog\bin\Release\WinSCP.exe
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupShowLog\showLog\bin\Release\SecureBackupShowLog.exe
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupShowLog\showLog\bin\Release\SecureBackupShowLog.pdb
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupShowLog\showLog\bin\Release\WinSCPnet.dll
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupShowLog\showLog\obj\Release\showLog.csprojResolveAssemblyReference.cache
+E:\b\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupShowLog\showLog\bin\Release\SecureBackupShowLog.exe.config
+E:\b\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupShowLog\showLog\obj\Release\SecureBackupShowLog.exe
+E:\b\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupShowLog\showLog\obj\Release\SecureBackupShowLog.pdb
+E:\b\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupShowLog\showLog\bin\Release\WinSCP.exe
+E:\b\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupShowLog\showLog\bin\Release\SecureBackupShowLog.exe
+E:\b\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupShowLog\showLog\bin\Release\SecureBackupShowLog.pdb
+E:\b\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupShowLog\showLog\bin\Release\WinSCPnet.dll
+E:\b\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupShowLog\showLog\obj\Release\showLog.csprojResolveAssemblyReference.cache
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupShowLog\showLog\bin\Release\SecureBackupShowLog.exe.config
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupShowLog\showLog\obj\Release\SecureBackupShowLog.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupShowLog\showLog\obj\Release\SecureBackupShowLog.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupShowLog\showLog\bin\Release\WinSCP.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupShowLog\showLog\bin\Release\SecureBackupShowLog.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupShowLog\showLog\bin\Release\SecureBackupShowLog.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupShowLog\showLog\bin\Release\WinSCPnet.dll
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupShowLog\showLog\obj\Release\showLog.csprojResolveAssemblyReference.cache

@@ -1,0 +1,22 @@
+C:\Users\9s7df\Desktop\SecureBackupExecution\SecureBackupExecution\bin\Debug\SecureBackupExecution.exe.config
+C:\Users\9s7df\Desktop\SecureBackupExecution\SecureBackupExecution\bin\Debug\SecureBackupExecution.exe
+C:\Users\9s7df\Desktop\SecureBackupExecution\SecureBackupExecution\bin\Debug\SecureBackupExecution.pdb
+C:\Users\9s7df\Desktop\SecureBackupExecution\SecureBackupExecution\obj\Debug\SecureBackupExecution.csprojResolveAssemblyReference.cache
+C:\Users\9s7df\Desktop\SecureBackupExecution\SecureBackupExecution\obj\Debug\SecureBackupExecution.Properties.Resources.resources
+C:\Users\9s7df\Desktop\SecureBackupExecution\SecureBackupExecution\obj\Debug\SecureBackupExecution.csproj.GenerateResource.Cache
+C:\Users\9s7df\Desktop\SecureBackupExecution\SecureBackupExecution\obj\Debug\SecureBackupExecution.exe
+C:\Users\9s7df\Desktop\SecureBackupExecution\SecureBackupExecution\obj\Debug\SecureBackupExecution.pdb
+C:\Users\9s7df\Desktop\SecureBackupExecution\SecureBackupExecution\obj\Debug\SecureBackupExecution.Form1.resources
+C:\Users\9s7df\Desktop\SecureBackupExecution\SecureBackupExecution\bin\Debug\WinSCP.exe
+C:\Users\9s7df\Desktop\SecureBackupExecution\SecureBackupExecution\bin\Debug\WinSCPnet.dll
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupExecution\bin\Debug\WinSCP.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupExecution\bin\Debug\SecureBackupExecution.exe.config
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupExecution\bin\Debug\SecureBackupExecution.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupExecution\bin\Debug\SecureBackupExecution.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupExecution\bin\Debug\WinSCPnet.dll
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupExecution\obj\Debug\SecureBackupExecution.csprojResolveAssemblyReference.cache
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupExecution\obj\Debug\SecureBackupExecution.Form1.resources
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupExecution\obj\Debug\SecureBackupExecution.Properties.Resources.resources
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupExecution\obj\Debug\SecureBackupExecution.csproj.GenerateResource.Cache
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupExecution\obj\Debug\SecureBackupExecution.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupExecution\obj\Debug\SecureBackupExecution.pdb

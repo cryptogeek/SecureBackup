@@ -1,0 +1,10 @@
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\delEmptyDirs\obj\Release\delEmptyDirsLib.csprojResolveAssemblyReference.cache
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\delEmptyDirs\bin\Release\delEmptyDirsLib.dll
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\delEmptyDirs\bin\Release\delEmptyDirsLib.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\delEmptyDirs\obj\Release\delEmptyDirsLib.dll
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\delEmptyDirs\obj\Release\delEmptyDirsLib.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\delEmptyDirsLib\bin\Release\delEmptyDirsLib.dll
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\delEmptyDirsLib\bin\Release\delEmptyDirsLib.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\delEmptyDirsLib\obj\Release\delEmptyDirsLib.csprojResolveAssemblyReference.cache
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\delEmptyDirsLib\obj\Release\delEmptyDirsLib.dll
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\delEmptyDirsLib\obj\Release\delEmptyDirsLib.pdb

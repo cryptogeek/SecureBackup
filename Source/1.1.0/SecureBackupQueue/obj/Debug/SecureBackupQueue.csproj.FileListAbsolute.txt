@@ -1,0 +1,23 @@
+C:\Users\9s7df\Desktop\SecureBackupQueue\SecureBackupQueue\bin\Debug\SecureBackupQueue.exe.config
+C:\Users\9s7df\Desktop\SecureBackupQueue\SecureBackupQueue\bin\Debug\SecureBackupQueue.exe
+C:\Users\9s7df\Desktop\SecureBackupQueue\SecureBackupQueue\bin\Debug\SecureBackupQueue.pdb
+C:\Users\9s7df\Desktop\SecureBackupQueue\SecureBackupQueue\obj\Debug\SecureBackupQueue.exe
+C:\Users\9s7df\Desktop\SecureBackupQueue\SecureBackupQueue\obj\Debug\SecureBackupQueue.pdb
+C:\Users\9s7df\Dropbox\doc\SecureBackupQueue\SecureBackupQueue\bin\Debug\SecureBackupQueue.exe.config
+C:\Users\9s7df\Dropbox\doc\SecureBackupQueue\SecureBackupQueue\obj\Debug\SecureBackupQueue.exe
+C:\Users\9s7df\Dropbox\doc\SecureBackupQueue\SecureBackupQueue\obj\Debug\SecureBackupQueue.pdb
+C:\Users\9s7df\Dropbox\doc\SecureBackupQueue\SecureBackupQueue\bin\Debug\SecureBackupQueue.exe
+C:\Users\9s7df\Dropbox\doc\SecureBackupQueue\SecureBackupQueue\bin\Debug\SecureBackupQueue.pdb
+C:\Users\9s7df\Dropbox\doc\SecureBackupQueue\SecureBackupQueue\obj\Debug\SecureBackupQueue.csprojResolveAssemblyReference.cache
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupQueue\SecureBackupQueue\bin\Debug\SecureBackupQueue.exe.config
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupQueue\SecureBackupQueue\obj\Debug\SecureBackupQueue.exe
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupQueue\SecureBackupQueue\obj\Debug\SecureBackupQueue.pdb
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupQueue\SecureBackupQueue\bin\Debug\SecureBackupQueue.exe
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupQueue\SecureBackupQueue\bin\Debug\SecureBackupQueue.pdb
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupQueue\SecureBackupQueue\obj\Debug\SecureBackupQueue.csprojResolveAssemblyReference.cache
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupQueue\bin\Debug\SecureBackupQueue.exe.config
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupQueue\bin\Debug\SecureBackupQueue.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupQueue\bin\Debug\SecureBackupQueue.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupQueue\obj\Debug\SecureBackupQueue.csprojResolveAssemblyReference.cache
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupQueue\obj\Debug\SecureBackupQueue.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupQueue\obj\Debug\SecureBackupQueue.pdb

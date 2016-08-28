@@ -1,0 +1,5 @@
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupQueuedownloadUpload\bin\Debug\SecureBackupQueuedownloadUpload.exe.config
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupQueuedownloadUpload\bin\Debug\SecureBackupQueuedownloadUpload.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupQueuedownloadUpload\bin\Debug\SecureBackupQueuedownloadUpload.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupQueuedownloadUpload\obj\Debug\SecureBackupQueuedownloadUpload.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupQueuedownloadUpload\obj\Debug\SecureBackupQueuedownloadUpload.pdb

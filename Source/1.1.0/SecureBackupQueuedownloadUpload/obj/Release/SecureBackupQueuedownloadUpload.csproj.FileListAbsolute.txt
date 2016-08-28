@@ -1,0 +1,28 @@
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupQueuedownloadUpload\SecureBackupQueue\bin\Release\SecureBackupQueuedownloadUpload.exe.config
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupQueuedownloadUpload\SecureBackupQueue\bin\Release\SecureBackupQueuedownloadUpload.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupQueuedownloadUpload\SecureBackupQueue\bin\Release\SecureBackupQueuedownloadUpload.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupQueuedownloadUpload\SecureBackupQueue\obj\Release\SecureBackupQueuedownloadUpload.csprojResolveAssemblyReference.cache
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupQueuedownloadUpload\SecureBackupQueue\obj\Release\SecureBackupQueuedownloadUpload.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupQueuedownloadUpload\SecureBackupQueue\obj\Release\SecureBackupQueuedownloadUpload.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupQueuedownloadUpload\bin\Release\SecureBackupQueuedownloadUpload.exe.config
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupQueuedownloadUpload\bin\Release\SecureBackupQueuedownloadUpload.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupQueuedownloadUpload\bin\Release\SecureBackupQueuedownloadUpload.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupQueuedownloadUpload\obj\Release\SecureBackupQueuedownloadUpload.csprojResolveAssemblyReference.cache
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupQueuedownloadUpload\obj\Release\SecureBackupQueuedownloadUpload.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupQueuedownloadUpload\obj\Release\SecureBackupQueuedownloadUpload.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupQueuedownloadUpload\bin\Release\SecureBackupQueuedownloadUpload.exe.config
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupQueuedownloadUpload\bin\Release\SecureBackupQueuedownloadUpload.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupQueuedownloadUpload\bin\Release\SecureBackupQueuedownloadUpload.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupQueuedownloadUpload\bin\Release\memStorageLib.dll
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupQueuedownloadUpload\bin\Release\memStorageLib.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupQueuedownloadUpload\obj\Release\SecureBackupQueuedownloadUpload.csprojResolveAssemblyReference.cache
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupQueuedownloadUpload\obj\Release\SecureBackupQueuedownloadUpload.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupQueuedownloadUpload\obj\Release\SecureBackupQueuedownloadUpload.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupQueuedownloadUpload\bin\Release\SecureBackupQueuedownloadUpload.exe.config
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupQueuedownloadUpload\bin\Release\SecureBackupQueuedownloadUpload.exe
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupQueuedownloadUpload\bin\Release\SecureBackupQueuedownloadUpload.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupQueuedownloadUpload\bin\Release\memStorageLib.dll
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupQueuedownloadUpload\bin\Release\memStorageLib.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupQueuedownloadUpload\obj\Release\SecureBackupQueuedownloadUpload.csprojResolveAssemblyReference.cache
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupQueuedownloadUpload\obj\Release\SecureBackupQueuedownloadUpload.exe
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupQueuedownloadUpload\obj\Release\SecureBackupQueuedownloadUpload.pdb

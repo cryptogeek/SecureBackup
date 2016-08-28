@@ -1,0 +1,15 @@
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackupMainGUI\bin\Debug\SecureBackupMainGUI.exe.config
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupMainGUI\bin\Debug\SecureBackupMainGUI.exe.config
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupMainGUI\bin\Debug\WinSCP.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupMainGUI\bin\Debug\SecureBackupMainGUI.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupMainGUI\bin\Debug\SecureBackupMainGUI.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupMainGUI\bin\Debug\WinSCPnet.dll
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupMainGUI\obj\Debug\SecureBackupMainGUI.csprojResolveAssemblyReference.cache
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupMainGUI\obj\Debug\SecureBackup.createBackup.resources
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupMainGUI\obj\Debug\SecureBackup.decryptParams.resources
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupMainGUI\obj\Debug\SecureBackup.encryptBackupParams.resources
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupMainGUI\obj\Debug\SecureBackup.Form1.resources
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupMainGUI\obj\Debug\SecureBackupMainGUI.Properties.Resources.resources
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupMainGUI\obj\Debug\SecureBackupMainGUI.csproj.GenerateResource.Cache
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupMainGUI\obj\Debug\SecureBackupMainGUI.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupMainGUI\obj\Debug\SecureBackupMainGUI.pdb

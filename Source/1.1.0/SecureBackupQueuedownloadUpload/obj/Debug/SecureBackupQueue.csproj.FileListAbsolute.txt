@@ -1,0 +1,17 @@
+C:\Users\9s7df\Desktop\SecureBackupQueue\SecureBackupQueue\bin\Debug\SecureBackupQueue.exe.config
+C:\Users\9s7df\Desktop\SecureBackupQueue\SecureBackupQueue\bin\Debug\SecureBackupQueue.exe
+C:\Users\9s7df\Desktop\SecureBackupQueue\SecureBackupQueue\bin\Debug\SecureBackupQueue.pdb
+C:\Users\9s7df\Desktop\SecureBackupQueue\SecureBackupQueue\obj\Debug\SecureBackupQueue.exe
+C:\Users\9s7df\Desktop\SecureBackupQueue\SecureBackupQueue\obj\Debug\SecureBackupQueue.pdb
+C:\Users\9s7df\Dropbox\doc\SecureBackupQueue\SecureBackupQueue\bin\Debug\SecureBackupQueue.exe.config
+C:\Users\9s7df\Dropbox\doc\SecureBackupQueue\SecureBackupQueue\obj\Debug\SecureBackupQueue.exe
+C:\Users\9s7df\Dropbox\doc\SecureBackupQueue\SecureBackupQueue\obj\Debug\SecureBackupQueue.pdb
+C:\Users\9s7df\Dropbox\doc\SecureBackupQueue\SecureBackupQueue\bin\Debug\SecureBackupQueue.exe
+C:\Users\9s7df\Dropbox\doc\SecureBackupQueue\SecureBackupQueue\bin\Debug\SecureBackupQueue.pdb
+C:\Users\9s7df\Dropbox\doc\SecureBackupQueue\SecureBackupQueue\obj\Debug\SecureBackupQueue.csprojResolveAssemblyReference.cache
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupQueue\SecureBackupQueue\bin\Debug\SecureBackupQueue.exe.config
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupQueue\SecureBackupQueue\obj\Debug\SecureBackupQueue.exe
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupQueue\SecureBackupQueue\obj\Debug\SecureBackupQueue.pdb
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupQueue\SecureBackupQueue\bin\Debug\SecureBackupQueue.exe
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupQueue\SecureBackupQueue\bin\Debug\SecureBackupQueue.pdb
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupQueue\SecureBackupQueue\obj\Debug\SecureBackupQueue.csprojResolveAssemblyReference.cache

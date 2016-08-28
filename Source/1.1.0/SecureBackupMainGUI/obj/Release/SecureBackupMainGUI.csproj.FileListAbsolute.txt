@@ -1,0 +1,61 @@
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\bin\Release\SecureBackupMainGUI.exe.config
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\obj\Release\SecureBackupMainGUI.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\obj\Release\SecureBackupMainGUI.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupMainGUI\bin\Release\WinSCP.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupMainGUI\bin\Release\SecureBackupMainGUI.exe.config
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupMainGUI\bin\Release\SecureBackupMainGUI.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupMainGUI\bin\Release\SecureBackupMainGUI.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupMainGUI\bin\Release\WinSCPnet.dll
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupMainGUI\obj\Release\SecureBackupMainGUI.csprojResolveAssemblyReference.cache
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupMainGUI\obj\Release\SecureBackup.createBackup.resources
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupMainGUI\obj\Release\SecureBackup.decryptParams.resources
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupMainGUI\obj\Release\SecureBackup.encryptBackupParams.resources
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupMainGUI\obj\Release\SecureBackup.Form1.resources
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupMainGUI\obj\Release\SecureBackupMainGUI.Properties.Resources.resources
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupMainGUI\obj\Release\SecureBackupMainGUI.csproj.GenerateResource.Cache
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupMainGUI\obj\Release\SecureBackupMainGUI.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupMainGUI\obj\Release\SecureBackupMainGUI.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.1.0\Source\SecureBackup\SecureBackupMainGUI\obj\Release\SecureBackupMainGUI.csprojResolveAssemblyReference.cache
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.1.0\Source\SecureBackup\SecureBackupMainGUI\obj\Release\SecureBackup.createBackup.resources
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.1.0\Source\SecureBackup\SecureBackupMainGUI\obj\Release\SecureBackup.Form1.resources
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.1.0\Source\SecureBackup\SecureBackupMainGUI\obj\Release\SecureBackupMainGUI.Properties.Resources.resources
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.1.0\Source\SecureBackup\SecureBackupMainGUI\obj\Release\SecureBackupMainGUI.csproj.GenerateResource.Cache
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.1.0\Source\SecureBackup\SecureBackupMainGUI\obj\Release\SecureBackupMainGUI.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.1.0\Source\SecureBackup\SecureBackupMainGUI\obj\Release\SecureBackupMainGUI.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.1.0\Source\SecureBackup\SecureBackupMainGUI\bin\Release\WinSCP.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.1.0\Source\SecureBackup\SecureBackupMainGUI\bin\Release\SecureBackupMainGUI.exe.config
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.1.0\Source\SecureBackup\SecureBackupMainGUI\bin\Release\SecureBackupMainGUI.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.1.0\Source\SecureBackup\SecureBackupMainGUI\bin\Release\SecureBackupMainGUI.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.1.0\Source\SecureBackup\SecureBackupMainGUI\bin\Release\WinSCPnet.dll
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupMainGUI\bin\Release\WinSCP.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupMainGUI\bin\Release\SecureBackupMainGUI.exe.config
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupMainGUI\bin\Release\SecureBackupMainGUI.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupMainGUI\bin\Release\SecureBackupMainGUI.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupMainGUI\bin\Release\WinSCPnet.dll
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupMainGUI\obj\Release\SecureBackupMainGUI.csprojResolveAssemblyReference.cache
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupMainGUI\obj\Release\SecureBackup.createBackup.resources
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupMainGUI\obj\Release\SecureBackup.Form1.resources
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupMainGUI\obj\Release\SecureBackupMainGUI.Properties.Resources.resources
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupMainGUI\obj\Release\SecureBackupMainGUI.csproj.GenerateResource.Cache
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupMainGUI\obj\Release\SecureBackupMainGUI.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupMainGUI\obj\Release\SecureBackupMainGUI.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupMainGUI\bin\Release\memStorageLib.dll
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupMainGUI\bin\Release\memStorageLib.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupMainGUI\bin\Release\multiLangLib.dll
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupMainGUI\bin\Release\multiLangLib.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupMainGUI\bin\Release\WinSCP.exe
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupMainGUI\bin\Release\SecureBackupMainGUI.exe.config
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupMainGUI\bin\Release\SecureBackupMainGUI.exe
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupMainGUI\bin\Release\SecureBackupMainGUI.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupMainGUI\bin\Release\memStorageLib.dll
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupMainGUI\bin\Release\multiLangLib.dll
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupMainGUI\bin\Release\WinSCPnet.dll
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupMainGUI\bin\Release\memStorageLib.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupMainGUI\bin\Release\multiLangLib.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupMainGUI\obj\Release\SecureBackupMainGUI.csprojResolveAssemblyReference.cache
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupMainGUI\obj\Release\SecureBackup.createBackup.resources
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupMainGUI\obj\Release\SecureBackup.Form1.resources
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupMainGUI\obj\Release\SecureBackupMainGUI.Properties.Resources.resources
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupMainGUI\obj\Release\SecureBackupMainGUI.csproj.GenerateResource.Cache
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupMainGUI\obj\Release\SecureBackupMainGUI.exe
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupMainGUI\obj\Release\SecureBackupMainGUI.pdb

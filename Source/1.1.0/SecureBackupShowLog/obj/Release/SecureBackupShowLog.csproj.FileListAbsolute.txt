@@ -1,0 +1,45 @@
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupShowLog\showLog\bin\Release\SecureBackupShowLog.exe.config
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupShowLog\showLog\obj\Release\SecureBackupShowLog.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupShowLog\showLog\obj\Release\SecureBackupShowLog.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupShowLog\bin\Release\WinSCP.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupShowLog\bin\Release\SecureBackupShowLog.exe.config
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupShowLog\bin\Release\SecureBackupShowLog.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupShowLog\bin\Release\SecureBackupShowLog.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupShowLog\bin\Release\WinSCPnet.dll
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupShowLog\obj\Release\SecureBackupShowLog.csprojResolveAssemblyReference.cache
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupShowLog\obj\Release\SecureBackupShowLog.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupShowLog\obj\Release\SecureBackupShowLog.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupShowLog\bin\Release\getTicket.dll
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupShowLog\bin\Release\getTicket.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupShowLog\bin\Release\WinSCP.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupShowLog\bin\Release\SecureBackupShowLog.exe.config
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupShowLog\bin\Release\SecureBackupShowLog.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupShowLog\bin\Release\SecureBackupShowLog.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupShowLog\bin\Release\nukeDirLib.dll
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupShowLog\bin\Release\WinSCPnet.dll
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupShowLog\bin\Release\nukeDirLib.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupShowLog\obj\Release\SecureBackupShowLog.csprojResolveAssemblyReference.cache
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupShowLog\obj\Release\SecureBackupShowLog.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupShowLog\obj\Release\SecureBackupShowLog.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupShowLog\bin\Release\getTicketLib.dll
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupShowLog\bin\Release\getTicketLib.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupShowLog\bin\Release\multiLangLib.dll
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupShowLog\bin\Release\multiLangLib.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupShowLog\bin\Release\memStorageLib.dll
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupShowLog\bin\Release\memStorageLib.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupShowLog\bin\Release\WinSCP.exe
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupShowLog\bin\Release\SecureBackupShowLog.exe.config
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupShowLog\bin\Release\SecureBackupShowLog.exe
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupShowLog\bin\Release\SecureBackupShowLog.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupShowLog\bin\Release\getTicketLib.dll
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupShowLog\bin\Release\multiLangLib.dll
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupShowLog\bin\Release\nukeDirLib.dll
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupShowLog\bin\Release\WinSCPnet.dll
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupShowLog\bin\Release\memStorageLib.dll
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupShowLog\bin\Release\getTicketLib.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupShowLog\bin\Release\multiLangLib.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupShowLog\bin\Release\nukeDirLib.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupShowLog\bin\Release\memStorageLib.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupShowLog\obj\Release\SecureBackupShowLog.csprojResolveAssemblyReference.cache
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupShowLog\obj\Release\SecureBackupShowLog.exe
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupShowLog\obj\Release\SecureBackupShowLog.pdb

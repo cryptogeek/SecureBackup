@@ -1,0 +1,110 @@
+C:\Users\9s7df\Dropbox\doc\SecureBackupExplorer\SecureBackupExplorer\bin\Release\SecureBackupExplorer.exe.config
+C:\Users\9s7df\Dropbox\doc\SecureBackupExplorer\SecureBackupExplorer\bin\Release\WinSCP.exe
+C:\Users\9s7df\Dropbox\doc\SecureBackupExplorer\SecureBackupExplorer\bin\Release\SecureBackupExplorer.exe
+C:\Users\9s7df\Dropbox\doc\SecureBackupExplorer\SecureBackupExplorer\bin\Release\SecureBackupExplorer.pdb
+C:\Users\9s7df\Dropbox\doc\SecureBackupExplorer\SecureBackupExplorer\bin\Release\WinSCPnet.dll
+C:\Users\9s7df\Dropbox\doc\SecureBackupExplorer\SecureBackupExplorer\obj\Release\SecureBackupExplorer.csprojResolveAssemblyReference.cache
+C:\Users\9s7df\Dropbox\doc\SecureBackupExplorer\SecureBackupExplorer\obj\Release\SecureBackupExplorer.Form1.resources
+C:\Users\9s7df\Dropbox\doc\SecureBackupExplorer\SecureBackupExplorer\obj\Release\SecureBackupExplorer.Properties.Resources.resources
+C:\Users\9s7df\Dropbox\doc\SecureBackupExplorer\SecureBackupExplorer\obj\Release\SecureBackupExplorer.csproj.GenerateResource.Cache
+C:\Users\9s7df\Dropbox\doc\SecureBackupExplorer\SecureBackupExplorer\obj\Release\SecureBackupExplorer.exe
+C:\Users\9s7df\Dropbox\doc\SecureBackupExplorer\SecureBackupExplorer\obj\Release\SecureBackupExplorer.pdb
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupExplorer\SecureBackupExplorer\bin\Release\SecureBackupExplorer.exe.config
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupExplorer\SecureBackupExplorer\obj\Release\SecureBackupExplorer.exe
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupExplorer\SecureBackupExplorer\obj\Release\SecureBackupExplorer.pdb
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupExplorer\SecureBackupExplorer\bin\Release\WinSCP.exe
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupExplorer\SecureBackupExplorer\bin\Release\SecureBackupExplorer.exe
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupExplorer\SecureBackupExplorer\bin\Release\SecureBackupExplorer.pdb
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupExplorer\SecureBackupExplorer\bin\Release\WinSCPnet.dll
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupExplorer\SecureBackupExplorer\obj\Release\SecureBackupExplorer.csprojResolveAssemblyReference.cache
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupExplorer\SecureBackupExplorer\obj\Release\SecureBackupExplorer.Form1.resources
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupExplorer\SecureBackupExplorer\obj\Release\SecureBackupExplorer.Properties.Resources.resources
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupExplorer\SecureBackupExplorer\obj\Release\SecureBackupExplorer.csproj.GenerateResource.Cache
+C:\Users\9s7df\Dropbox\doc\SecureBackup releases\1.0.0\Source\SecureBackupExplorer\SecureBackupExplorer\bin\Release\SecureBackupExplorer.exe.config
+C:\Users\9s7df\Dropbox\doc\SecureBackup releases\1.0.0\Source\SecureBackupExplorer\SecureBackupExplorer\obj\Release\SecureBackupExplorer.exe
+C:\Users\9s7df\Dropbox\doc\SecureBackup releases\1.0.0\Source\SecureBackupExplorer\SecureBackupExplorer\obj\Release\SecureBackupExplorer.pdb
+C:\Users\9s7df\Dropbox\doc\SecureBackup releases\1.0.0\Source\SecureBackupExplorer\SecureBackupExplorer\bin\Release\WinSCP.exe
+C:\Users\9s7df\Dropbox\doc\SecureBackup releases\1.0.0\Source\SecureBackupExplorer\SecureBackupExplorer\bin\Release\SecureBackupExplorer.exe
+C:\Users\9s7df\Dropbox\doc\SecureBackup releases\1.0.0\Source\SecureBackupExplorer\SecureBackupExplorer\bin\Release\SecureBackupExplorer.pdb
+C:\Users\9s7df\Dropbox\doc\SecureBackup releases\1.0.0\Source\SecureBackupExplorer\SecureBackupExplorer\bin\Release\WinSCPnet.dll
+C:\Users\9s7df\Dropbox\doc\SecureBackup releases\1.0.0\Source\SecureBackupExplorer\SecureBackupExplorer\obj\Release\SecureBackupExplorer.csprojResolveAssemblyReference.cache
+C:\Users\9s7df\Dropbox\doc\SecureBackup releases\1.0.0\Source\SecureBackupExplorer\SecureBackupExplorer\obj\Release\SecureBackupExplorer.Form1.resources
+C:\Users\9s7df\Dropbox\doc\SecureBackup releases\1.0.0\Source\SecureBackupExplorer\SecureBackupExplorer\obj\Release\SecureBackupExplorer.Properties.Resources.resources
+C:\Users\9s7df\Dropbox\doc\SecureBackup releases\1.0.0\Source\SecureBackupExplorer\SecureBackupExplorer\obj\Release\SecureBackupExplorer.csproj.GenerateResource.Cache
+E:\b\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupExplorer\SecureBackupExplorer\bin\Release\SecureBackupExplorer.exe.config
+E:\b\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupExplorer\SecureBackupExplorer\obj\Release\SecureBackupExplorer.exe
+E:\b\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupExplorer\SecureBackupExplorer\obj\Release\SecureBackupExplorer.pdb
+E:\b\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupExplorer\SecureBackupExplorer\bin\Release\WinSCP.exe
+E:\b\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupExplorer\SecureBackupExplorer\bin\Release\SecureBackupExplorer.exe
+E:\b\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupExplorer\SecureBackupExplorer\bin\Release\SecureBackupExplorer.pdb
+E:\b\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupExplorer\SecureBackupExplorer\bin\Release\WinSCPnet.dll
+E:\b\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupExplorer\SecureBackupExplorer\obj\Release\SecureBackupExplorer.csprojResolveAssemblyReference.cache
+E:\b\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupExplorer\SecureBackupExplorer\obj\Release\SecureBackupExplorer.Form1.resources
+E:\b\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupExplorer\SecureBackupExplorer\obj\Release\SecureBackupExplorer.Properties.Resources.resources
+E:\b\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupExplorer\SecureBackupExplorer\obj\Release\SecureBackupExplorer.csproj.GenerateResource.Cache
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupExplorer\SecureBackupExplorer\bin\Release\SecureBackupExplorer.exe.config
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupExplorer\SecureBackupExplorer\obj\Release\SecureBackupExplorer.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupExplorer\SecureBackupExplorer\obj\Release\SecureBackupExplorer.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupExplorer\SecureBackupExplorer\bin\Release\WinSCP.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupExplorer\SecureBackupExplorer\bin\Release\SecureBackupExplorer.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupExplorer\SecureBackupExplorer\bin\Release\SecureBackupExplorer.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupExplorer\SecureBackupExplorer\bin\Release\WinSCPnet.dll
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupExplorer\SecureBackupExplorer\obj\Release\SecureBackupExplorer.csprojResolveAssemblyReference.cache
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupExplorer\SecureBackupExplorer\obj\Release\SecureBackupExplorer.Form1.resources
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupExplorer\SecureBackupExplorer\obj\Release\SecureBackupExplorer.Properties.Resources.resources
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupExplorer\SecureBackupExplorer\obj\Release\SecureBackupExplorer.csproj.GenerateResource.Cache
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupExplorer\bin\Release\WinSCP.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupExplorer\bin\Release\SecureBackupExplorer.exe.config
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupExplorer\bin\Release\SecureBackupExplorer.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupExplorer\bin\Release\SecureBackupExplorer.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupExplorer\bin\Release\WinSCPnet.dll
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupExplorer\obj\Release\SecureBackupExplorer.csprojResolveAssemblyReference.cache
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupExplorer\obj\Release\SecureBackupExplorer.Form1.resources
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupExplorer\obj\Release\SecureBackupExplorer.Properties.Resources.resources
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupExplorer\obj\Release\SecureBackupExplorer.csproj.GenerateResource.Cache
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupExplorer\obj\Release\SecureBackupExplorer.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupExplorer\obj\Release\SecureBackupExplorer.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupExplorer\bin\Release\getTicket.dll
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackup\SecureBackupExplorer\bin\Release\getTicket.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\obj\Release\SecureBackupExplorer.csprojResolveAssemblyReference.cache
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\obj\Release\SecureBackupExplorer.Form1.resources
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\obj\Release\SecureBackupExplorer.Properties.Resources.resources
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\obj\Release\SecureBackupExplorer.csproj.GenerateResource.Cache
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\obj\Release\SecureBackupExplorer.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\obj\Release\SecureBackupExplorer.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\bin\Release\WinSCP.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\bin\Release\SecureBackupExplorer.exe.config
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\bin\Release\SecureBackupExplorer.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\bin\Release\SecureBackupExplorer.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\bin\Release\WinSCPnet.dll
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\bin\Release\nukeDirLib.dll
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\bin\Release\nukeDirLib.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\bin\Release\getTicketLib.dll
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\bin\Release\getTicketLib.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\bin\Release\delEmptyDirsLib.dll
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\bin\Release\delEmptyDirsLib.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\bin\Release\multiLangLib.dll
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\bin\Release\multiLangLib.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\bin\Release\memStorageLib.dll
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\bin\Release\memStorageLib.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\obj\Release\SecureBackupExplorer.csprojResolveAssemblyReference.cache
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\obj\Release\SecureBackupExplorer.Form1.resources
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\obj\Release\SecureBackupExplorer.Properties.Resources.resources
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\obj\Release\SecureBackupExplorer.csproj.GenerateResource.Cache
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\obj\Release\SecureBackupExplorer.exe
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\obj\Release\SecureBackupExplorer.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\bin\Release\WinSCP.exe
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\bin\Release\SecureBackupExplorer.exe.config
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\bin\Release\SecureBackupExplorer.exe
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\bin\Release\SecureBackupExplorer.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\bin\Release\delEmptyDirsLib.dll
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\bin\Release\getTicketLib.dll
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\bin\Release\multiLangLib.dll
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\bin\Release\nukeDirLib.dll
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\bin\Release\WinSCPnet.dll
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\bin\Release\memStorageLib.dll
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\bin\Release\delEmptyDirsLib.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\bin\Release\getTicketLib.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\bin\Release\multiLangLib.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\bin\Release\nukeDirLib.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupExplorer\bin\Release\memStorageLib.pdb

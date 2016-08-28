@@ -1,0 +1,83 @@
+C:\Users\9s7df\Dropbox\doc\SecureBackup\SecureBackup\bin\Release\SecureBackup.exe.config
+C:\Users\9s7df\Dropbox\doc\SecureBackup\SecureBackup\bin\Release\SecureBackup.exe
+C:\Users\9s7df\Dropbox\doc\SecureBackup\SecureBackup\bin\Release\SecureBackup.pdb
+C:\Users\9s7df\Dropbox\doc\SecureBackup\SecureBackup\obj\Release\SecureBackup.createBackup.resources
+C:\Users\9s7df\Dropbox\doc\SecureBackup\SecureBackup\obj\Release\SecureBackup.Form1.resources
+C:\Users\9s7df\Dropbox\doc\SecureBackup\SecureBackup\obj\Release\SecureBackup.Properties.Resources.resources
+C:\Users\9s7df\Dropbox\doc\SecureBackup\SecureBackup\obj\Release\SecureBackup.csproj.GenerateResource.Cache
+C:\Users\9s7df\Dropbox\doc\SecureBackup\SecureBackup\obj\Release\SecureBackup.exe
+C:\Users\9s7df\Dropbox\doc\SecureBackup\SecureBackup\obj\Release\SecureBackup.pdb
+C:\Users\9s7df\Dropbox\doc\SecureBackup\SecureBackup\bin\Release\WinSCP.exe
+C:\Users\9s7df\Dropbox\doc\SecureBackup\SecureBackup\bin\Release\WinSCPnet.dll
+C:\Users\9s7df\Dropbox\doc\SecureBackup\SecureBackup\obj\Release\SecureBackup.csprojResolveAssemblyReference.cache
+C:\Users\9s7df\Dropbox\doc\SecureBackup\SecureBackup\obj\Release\SecureBackup.decryptParams.resources
+C:\Users\9s7df\Dropbox\doc\SecureBackup\SecureBackup\obj\Release\SecureBackup.encryptBackupParams.resources
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackup\SecureBackup\bin\Release\SecureBackup.exe.config
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackup\SecureBackup\obj\Release\SecureBackup.exe
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackup\SecureBackup\obj\Release\SecureBackup.pdb
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackup\SecureBackup\bin\Release\WinSCP.exe
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackup\SecureBackup\bin\Release\SecureBackup.exe
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackup\SecureBackup\bin\Release\SecureBackup.pdb
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackup\SecureBackup\bin\Release\WinSCPnet.dll
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackup\SecureBackup\obj\Release\SecureBackup.createBackup.resources
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackup\SecureBackup\obj\Release\SecureBackup.decryptParams.resources
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackup\SecureBackup\obj\Release\SecureBackup.encryptBackupParams.resources
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackup\SecureBackup\obj\Release\SecureBackup.Form1.resources
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackup\SecureBackup\obj\Release\SecureBackup.Properties.Resources.resources
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackup\SecureBackup\obj\Release\SecureBackup.csproj.GenerateResource.Cache
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupMainGUI\SecureBackup\bin\Release\SecureBackupMainGUI.exe.config
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupMainGUI\SecureBackup\bin\Release\WinSCP.exe
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupMainGUI\SecureBackup\bin\Release\SecureBackupMainGUI.exe
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupMainGUI\SecureBackup\bin\Release\SecureBackupMainGUI.pdb
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupMainGUI\SecureBackup\bin\Release\WinSCPnet.dll
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupMainGUI\SecureBackup\obj\Release\SecureBackup.csprojResolveAssemblyReference.cache
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupMainGUI\SecureBackup\obj\Release\SecureBackup.createBackup.resources
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupMainGUI\SecureBackup\obj\Release\SecureBackup.decryptParams.resources
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupMainGUI\SecureBackup\obj\Release\SecureBackup.encryptBackupParams.resources
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupMainGUI\SecureBackup\obj\Release\SecureBackup.Form1.resources
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupMainGUI\SecureBackup\obj\Release\SecureBackupMainGUI.Properties.Resources.resources
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupMainGUI\SecureBackup\obj\Release\SecureBackup.csproj.GenerateResource.Cache
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupMainGUI\SecureBackup\obj\Release\SecureBackupMainGUI.exe
+C:\Users\Alexandre.VIKOL\Dropbox\doc\SecureBackupMainGUI\SecureBackup\obj\Release\SecureBackupMainGUI.pdb
+C:\Users\9s7df\Dropbox\doc\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\bin\Release\SecureBackupMainGUI.exe.config
+C:\Users\9s7df\Dropbox\doc\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\obj\Release\SecureBackupMainGUI.exe
+C:\Users\9s7df\Dropbox\doc\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\obj\Release\SecureBackupMainGUI.pdb
+C:\Users\9s7df\Dropbox\doc\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\bin\Release\WinSCP.exe
+C:\Users\9s7df\Dropbox\doc\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\bin\Release\SecureBackupMainGUI.exe
+C:\Users\9s7df\Dropbox\doc\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\bin\Release\SecureBackupMainGUI.pdb
+C:\Users\9s7df\Dropbox\doc\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\bin\Release\WinSCPnet.dll
+C:\Users\9s7df\Dropbox\doc\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\obj\Release\SecureBackup.csprojResolveAssemblyReference.cache
+C:\Users\9s7df\Dropbox\doc\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\obj\Release\SecureBackup.createBackup.resources
+C:\Users\9s7df\Dropbox\doc\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\obj\Release\SecureBackup.decryptParams.resources
+C:\Users\9s7df\Dropbox\doc\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\obj\Release\SecureBackup.encryptBackupParams.resources
+C:\Users\9s7df\Dropbox\doc\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\obj\Release\SecureBackup.Form1.resources
+C:\Users\9s7df\Dropbox\doc\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\obj\Release\SecureBackupMainGUI.Properties.Resources.resources
+C:\Users\9s7df\Dropbox\doc\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\obj\Release\SecureBackup.csproj.GenerateResource.Cache
+E:\b\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\bin\Release\SecureBackupMainGUI.exe.config
+E:\b\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\obj\Release\SecureBackupMainGUI.exe
+E:\b\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\obj\Release\SecureBackupMainGUI.pdb
+E:\b\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\obj\Release\SecureBackup.csprojResolveAssemblyReference.cache
+E:\b\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\obj\Release\SecureBackup.createBackup.resources
+E:\b\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\obj\Release\SecureBackup.decryptParams.resources
+E:\b\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\obj\Release\SecureBackup.encryptBackupParams.resources
+E:\b\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\obj\Release\SecureBackup.Form1.resources
+E:\b\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\obj\Release\SecureBackupMainGUI.Properties.Resources.resources
+E:\b\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\obj\Release\SecureBackup.csproj.GenerateResource.Cache
+E:\b\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\bin\Release\WinSCP.exe
+E:\b\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\bin\Release\SecureBackupMainGUI.exe
+E:\b\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\bin\Release\SecureBackupMainGUI.pdb
+E:\b\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\bin\Release\WinSCPnet.dll
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\bin\Release\SecureBackupMainGUI.exe.config
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\obj\Release\SecureBackupMainGUI.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\obj\Release\SecureBackupMainGUI.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\bin\Release\WinSCP.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\bin\Release\SecureBackupMainGUI.exe
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\bin\Release\SecureBackupMainGUI.pdb
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\bin\Release\WinSCPnet.dll
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\obj\Release\SecureBackup.csprojResolveAssemblyReference.cache
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\obj\Release\SecureBackup.createBackup.resources
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\obj\Release\SecureBackup.decryptParams.resources
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\obj\Release\SecureBackup.encryptBackupParams.resources
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\obj\Release\SecureBackup.Form1.resources
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\obj\Release\SecureBackupMainGUI.Properties.Resources.resources
+E:\files\a\software\my software\visual studio c#\projects\SecureBackup\SecureBackup releases\1.0.0\Source\SecureBackupMainGUI\SecureBackup\obj\Release\SecureBackup.csproj.GenerateResource.Cache
