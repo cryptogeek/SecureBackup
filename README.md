@@ -5,15 +5,15 @@ https://github.com/cryptogeek/SecureBackup/raw/master/SecureBackup%20Portable.zi
 SecureBackup is a program to create encrypted backups from local folders to SFTP servers.
 
 # Features:
--Zero-Knowledge Encryption: all data is encrypted with AES-256 before being sent to the server and decryption is only done locally.
--Deduplication between backup states: only new or changed files are sent to server.
--Auto-backup: backups can be scheduled to run at chosen interval.
--SFTP: data transfer is done securely and file transfers are resumable.
--MultiLang: SecureBackup is available in english and french and it's easy to add new languages.
+-Zero-Knowledge Encryption: all data is encrypted with AES-256 before being sent to the server and decryption is only done locally.  
+-Deduplication between backup states: only new or changed files are sent to server.  
+-Auto-backup: backups can be scheduled to run at chosen interval.  
+-SFTP: data transfer is done securely and file transfers are resumable.  
+-MultiLang: SecureBackup is available in english and french and it's easy to add new languages.  
 
 # Libraries:
-7-Zip: AES-256 Encryption
-WinSCP: SFTP file transfers
+7-Zip: AES-256 Encryption  
+WinSCP: SFTP file transfers  
 
 # Requirements:
 Microsoft .NET Framework 4.5.2
