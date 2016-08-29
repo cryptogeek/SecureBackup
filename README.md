@@ -19,16 +19,11 @@ WinSCP: SFTP file transfers
 Microsoft .NET Framework 4.5.2
 
 # Supported client OS: 
-Windows 10
-
-# Might work:
-Windows Vista, 7, 8, 8.1  
+Windows Vista, 7, 8, 8.1, 10  
 Windows server 2008, 2012, 2016
 
 # Supported SFTP server: 
-OpenSSH on Ubuntu Server
-
-# Might work:
+OpenSSH on Ubuntu Server  
 Other SFTP servers
 
 # Screenshots:
