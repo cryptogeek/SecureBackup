@@ -22,7 +22,8 @@ Microsoft .NET Framework 4.5.2
 Windows 10
 
 # Might work:
-Windows XP, Vista, 7, 8, 8.1
+Windows Vista, 7, 8, 8.1  
+Windows server 2008, 2012, 2016
 
 # Screenshots:
 ![SecureBackup](https://raw.githubusercontent.com/cryptogeek/SecureBackup/master/Screenshots/Main.PNG)
