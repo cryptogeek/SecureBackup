@@ -10,7 +10,7 @@ SecureBackup is a program to create encrypted backups from local folders to SFTP
 -Backup log: see what changes occured at what time. Very useful in case of ransomware attack because you can restore to the state just before the attack. Also useful when a file was deleted by accident.  
 -Backup explorer: browse all backup states and restore all files or only selected files.  
 -Smart restore: skip files already restored.  
--Auto-backup: backups can be scheduled to run at chosen interval.  
+-Auto-backup: backups can be scheduled to run at chosen interval in the background.  
 -SFTP: data transfer is done securely and file transfers are resumable.  
 -MultiLang: SecureBackup is available in english and french and it's easy to add new languages.  
 -Resumable: backups can be interrupted at any moment and will resume where they stopped even if the system is shutdown abruptly.  
