@@ -158,6 +158,20 @@ namespace SecureBackup
             
         }
 
+
+        private string getParamValue(String line,string paramName)
+        {
+            int startOfString = line.IndexOf(paramName);
+            if (startOfString > -1)
+            {
+                int lengthOfString = line.LastIndexOf(paramName) - startOfString;
+                return line.Substring(startOfString, lengthOfString).Replace(paramName, "");
+            }else
+            {
+                return "<notFound>";
+            }
+        }
+
         
 
         private void buttonEdit_Click(object sender, EventArgs e)
@@ -186,6 +200,15 @@ namespace SecureBackup
                 cbp.intervalForm.Text = line.Split('|')[8];
                 cbp.autoBackup.Checked = Convert.ToBoolean(line.Split('|')[9]);
                 cbp.textBoxMaxBackups.Text=line.Split('|')[10];
+
+                //upload limit
+                if (getParamValue(line, "<uploadLimitParam>") != "<notFound>")
+                {
+                    cbp.textBoxuploadSpeedLimit.Text = getParamValue(line, "<uploadLimitParam>");
+                }else
+                {
+                    cbp.textBoxuploadSpeedLimit.Text = "0";
+                }
             }
             paramReader.Close();
  

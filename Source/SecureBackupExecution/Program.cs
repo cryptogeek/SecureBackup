@@ -31,6 +31,7 @@ namespace SecureBackupExecution
         static string encryptionKey;
         static string backupName;
         static string maxBackups;
+        static int uploadSpeedLimit;
 
         //chemin de l'executable
         static string execDir = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
@@ -229,10 +230,16 @@ namespace SecureBackupExecution
                 //writeToLog(session.Opened);
                 if (!session.Opened) session.Open(sessionOptions);
 
+                
+                TransferOptions uploadTransferOptions = new TransferOptions();
+                uploadTransferOptions.SpeedLimit = uploadSpeedLimit;
+
+                // Upload files
                 session.PutFiles(
                     file,
                     dest+"/"+Path.GetFileName(file),
-                    false //delete
+                    false, //delete
+                    uploadTransferOptions
                 );
                 //writeToLog("");  
 
@@ -299,6 +306,20 @@ namespace SecureBackupExecution
             }catch { }
         }
 
+        static string getParamValue(String line, string paramName)
+        {
+            int startOfString = line.IndexOf(paramName);
+            if (startOfString > -1)
+            {
+                int lengthOfString = line.LastIndexOf(paramName) - startOfString;
+                return line.Substring(startOfString, lengthOfString).Replace(paramName, "");
+            }
+            else
+            {
+                return "<notFound>";
+            }
+        }
+
         public static string fileFormd5="";
 
         static string ext = ".new";
@@ -343,6 +364,16 @@ namespace SecureBackupExecution
             backupName = args[9];
 
             maxBackups = args[10];
+
+            string argsLine = string.Join(",", args);
+
+            if (getParamValue(argsLine, "<uploadLimitParam>") != "<notFound>")
+            {
+                uploadSpeedLimit = Convert.ToInt32(getParamValue(argsLine, "<uploadLimitParam>"));
+            }else
+            {
+                uploadSpeedLimit = 0;
+            }
 
             SessionOptions sessionOptions = new SessionOptions
             {

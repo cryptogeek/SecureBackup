@@ -1,2 +1,8 @@
+6.1.2017 v1.2.0
+-Upload speed can now be limited
+-Executables and dlls are now signed
+-updated to WinSCP 5.9.3
+-updated to 7-Zip 16.04
+
 28.08.2016 v1.1.0
 -Public release

@@ -51,7 +51,7 @@ namespace SecureBackup
             if (!File.Exists(file)) File.Create(file).Dispose();
 
             StreamWriter writer = new StreamWriter(file, false); //true = append
-            writer.WriteLine(ipForm.Text+"|"+portForm.Text + "|" + sshForm.Text + "|" + userForm.Text + "|" + sftpPassForm.Text + "|" +sourceForm.Text + "|" +destForm.Text + "|" +encKeyForm.Text + "|" + intervalForm.Text + "|" + autoBackup.Checked + "|" + textBoxMaxBackups.Text);
+            writer.WriteLine(ipForm.Text+"|"+portForm.Text + "|" + sshForm.Text + "|" + userForm.Text + "|" + sftpPassForm.Text + "|" +sourceForm.Text + "|" +destForm.Text + "|" +encKeyForm.Text + "|" + intervalForm.Text + "|" + autoBackup.Checked + "|" + textBoxMaxBackups.Text+ "|<uploadLimitParam>" + textBoxuploadSpeedLimit.Text+ "<uploadLimitParam>");
             writer.Close();
 
             //signal recheck  
@@ -130,6 +130,13 @@ namespace SecureBackup
             button2.Text = multiLangClass.getText(28);
             button3.Text = multiLangClass.getText(29);
             this.Text = multiLangClass.getText(30);
+            label15.Text = multiLangClass.getText(36);
+            label16.Text = multiLangClass.getText(27);
+        }
+
+        private void label15_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

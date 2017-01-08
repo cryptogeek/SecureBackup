@@ -59,3 +59,11 @@ E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1
 E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupQueue\obj\Release\SecureBackupQueue.csprojResolveAssemblyReference.cache
 E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupQueue\obj\Release\SecureBackupQueue.exe
 E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\SecureBackupQueue\obj\Release\SecureBackupQueue.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2.0\SecureBackupQueue\bin\Release\SecureBackupQueue.exe.config
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2.0\SecureBackupQueue\bin\Release\SecureBackupQueue.exe
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2.0\SecureBackupQueue\bin\Release\SecureBackupQueue.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2.0\SecureBackupQueue\bin\Release\memStorageLib.dll
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2.0\SecureBackupQueue\bin\Release\memStorageLib.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2.0\SecureBackupQueue\obj\Release\SecureBackupQueue.csprojResolveAssemblyReference.cache
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2.0\SecureBackupQueue\obj\Release\SecureBackupQueue.exe
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2.0\SecureBackupQueue\obj\Release\SecureBackupQueue.pdb

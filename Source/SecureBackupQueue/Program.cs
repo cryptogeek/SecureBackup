@@ -147,7 +147,7 @@ namespace SecureBackupQueue
                                 startInfo = new ProcessStartInfo();
                                 startInfo.WindowStyle = ProcessWindowStyle.Hidden;
                                 startInfo.FileName = execDir + "\\SecureBackupExecution.exe";
-                                startInfo.Arguments = line.Split('|')[0] + " " + line.Split('|')[1] + " " + line.Split('|')[2] + " " + line.Split('|')[3] + " " + line.Split('|')[4] + " \"" + line.Split('|')[5] + "\" \"" + line.Split('|')[6] + "\" " + line.Split('|')[7] + " \"" + item.Split('|')[0] + "\" " + line.Split('|')[10];
+                                startInfo.Arguments = line.Split('|')[0] + " " + line.Split('|')[1] + " " + line.Split('|')[2] + " " + line.Split('|')[3] + " " + line.Split('|')[4] + " \"" + line.Split('|')[5] + "\" \"" + line.Split('|')[6] + "\" " + line.Split('|')[7] + " \"" + item.Split('|')[0] + "\" " + line.Split('|')[10] + " "+ line;
                                 var process = Process.Start(startInfo);
                                 process.WaitForExit();
 
@@ -177,7 +177,7 @@ namespace SecureBackupQueue
                                 startInfo = new ProcessStartInfo();
                                 startInfo.WindowStyle = ProcessWindowStyle.Hidden;
                                 startInfo.FileName = execDir + "\\SecureBackupExecution.exe";
-                                startInfo.Arguments = line.Split('|')[0] + " " + line.Split('|')[1] + " " + line.Split('|')[2] + " " + line.Split('|')[3] + " " + line.Split('|')[4] + " \"" + line.Split('|')[5] + "\" \"" + line.Split('|')[6] + "\" " + line.Split('|')[7] + " \"" + item + "\" " + line.Split('|')[10];
+                                startInfo.Arguments = line.Split('|')[0] + " " + line.Split('|')[1] + " " + line.Split('|')[2] + " " + line.Split('|')[3] + " " + line.Split('|')[4] + " \"" + line.Split('|')[5] + "\" \"" + line.Split('|')[6] + "\" " + line.Split('|')[7] + " \"" + item + "\" " + line.Split('|')[10] + " " + line;
                                 var process = Process.Start(startInfo);
                                 process.WaitForExit();
 
