@@ -1,3 +1,7 @@
+15.1.2017 v1.2.1
+-Optimisation: WinSCP now doesn't open connection to server unless needed
+-Behaviour removed: delete local settings if backup is missing from server
+
 6.1.2017 v1.2.0
 -Upload speed can now be limited
 -Executables and dlls are now signed

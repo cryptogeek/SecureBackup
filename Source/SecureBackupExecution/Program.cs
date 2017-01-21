@@ -225,12 +225,9 @@ namespace SecureBackupExecution
         {
             try
             {
-                // Connect
-                //session.Open(sessionOptions);
-                //writeToLog(session.Opened);
-                if (!session.Opened) session.Open(sessionOptions);
+                openSessionIfNeeded(session, sessionOptions);
 
-                
+
                 TransferOptions uploadTransferOptions = new TransferOptions();
                 uploadTransferOptions.SpeedLimit = uploadSpeedLimit;
 
@@ -317,6 +314,18 @@ namespace SecureBackupExecution
             else
             {
                 return "<notFound>";
+            }
+        }
+
+        static void openSessionIfNeeded(Session session, SessionOptions sessionOptions) {
+            try
+            {
+                if (!session.Opened) session.Open(sessionOptions);
+            }
+            catch
+            {
+                error();
+                Environment.Exit(1);
             }
         }
 
@@ -469,32 +478,6 @@ namespace SecureBackupExecution
             List<string> remoteFilesListEncryptedFiles = new List<string>();
             StreamReader remoteFilesListReader;
            
-            try
-            {
-                if (!session.Opened) session.Open(sessionOptions);
-            }
-            catch
-            {
-                error();
-                Environment.Exit(1);
-            }
-            
-            //first contact
-            /////////////////////
-                string firstContactDoneName = "firstContactDone";
-                string firstContactDoneLocal = workDir + @"\" + firstContactDoneName;
-                string firstContactDoneRemote = dest + "/" + firstContactDoneName;
-                if (!session.FileExists(firstContactDoneRemote))
-                {
-                    nukeDirClass.nukeDir(workDir);
-                    Directory.CreateDirectory(workDir);
-                    File.Create(firstContactDoneLocal).Dispose();
-                    fileTransferring = firstContactDoneLocal;
-                    uploadFile(firstContactDoneLocal, session, sessionOptions);
-                    writeToLog("", Color.Aqua);
-                }
-            /////////////////////
-
             string dirsChanged = workDir + @"\dirsChanged";
             string filesChanged = workDir + @"\filesChanged";
 
@@ -504,6 +487,8 @@ namespace SecureBackupExecution
 
             if (!File.Exists(workDir+"\\DBsDownloaded")) {
 
+                openSessionIfNeeded(session, sessionOptions);
+                
                 //on attend que la voie downloadUpload soit libre
                 getTicketClass.getTicket();
 
@@ -913,6 +898,7 @@ namespace SecureBackupExecution
                             if(logEntry.Split('|')[1]=="0"){
                                 try
                                 {
+                                    openSessionIfNeeded(session, sessionOptions);
                                     session.RemoveFiles(
                                         dest + @"/" + logEntry.Split('|')[4]
                                     );
@@ -1041,6 +1027,7 @@ namespace SecureBackupExecution
 
                     //upload dbs
                     //////////////////////
+                        openSessionIfNeeded(session, sessionOptions);
                         session.RemoveFiles(newDBsRemote);
 
                         string upload;
@@ -1101,7 +1088,7 @@ namespace SecureBackupExecution
                 }
             }
 
-            session.Close();
+            if (session.Opened) session.Close();
 
             //File.Create(nukeFile).Dispose();
             //nukeDirClass.nukeDir(workDir);
