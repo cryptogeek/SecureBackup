@@ -715,7 +715,7 @@ namespace SecureBackupExplorer
                     //textBoxLog.AppendText(Environment.NewLine);
 
                     List<string> localFileListRelative = new List<string>();
-                    for (int i = 0; i < localFilesList.Count; i++) localFileListRelative.Add(localFilesList[i].Replace(dialog.FileName, "").ToLower());
+                    for (int i = 0; i < localFilesList.Count; i++) localFileListRelative.Add((@"\" + localFilesList[i].Replace(dialog.FileName, "")).Replace(@"\\", @"\").ToLower());
 
                     List<string> tempViewFreezedOnlyRelativePath = new List<string>();
                     for (int i = 0; i < tempViewFreezed.Count; i++) tempViewFreezedOnlyRelativePath.Add(tempViewFreezed[i].Split('|')[0].ToLower());
@@ -725,7 +725,7 @@ namespace SecureBackupExplorer
                         //textBoxLog.AppendText("fichier: "+file);
                         //textBoxLog.AppendText(Environment.NewLine);
                         string file = localFilesList[i];
-                        if(tempViewFreezedOnlyRelativePath.FirstOrDefault(s => s==localFileListRelative[i]) == null)
+                        if(tempViewFreezedOnlyRelativePath.FirstOrDefault(s => s==localFileListRelative[i]) == null && !file.Contains("$RECYCLE.BIN") && !file.Contains("System Volume Information")) 
                         {
                             //envoi fichier dans poubelle
                             //reference ajouté dans propriété du projet vers Microsoft.VisualBasic

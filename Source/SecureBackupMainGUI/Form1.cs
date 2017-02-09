@@ -1,4 +1,5 @@
-﻿using memStorageLib;
+﻿using cleanPathLib;
+using memStorageLib;
 using multiLangLib;
 using System;
 using System.Collections.Generic;
@@ -266,7 +267,7 @@ namespace SecureBackup
             ProcessStartInfo startInfo = new ProcessStartInfo();
             //startInfo.WindowStyle = ProcessWindowStyle.Hidden;
             startInfo.FileName = "SecureBackupShowLog.exe";
-            startInfo.Arguments = line.Split('|')[0] + " " + line.Split('|')[1] + " " + line.Split('|')[2] + " " + line.Split('|')[3] + " " + line.Split('|')[4] + " \"" + line.Split('|')[5] + "\" \"" + line.Split('|')[6] + "\" " + line.Split('|')[7] + " \"" + listBox1.SelectedItem.ToString() + "\"";
+            startInfo.Arguments = line.Split('|')[0] + " " + line.Split('|')[1] + " " + line.Split('|')[2] + " " + line.Split('|')[3] + " " + line.Split('|')[4] + " \"" + cleanPathClass.cleanPath(line.Split('|')[5]) + "\" \"" + line.Split('|')[6] + "\" " + line.Split('|')[7] + " \"" + listBox1.SelectedItem.ToString() + "\"";
             var process = Process.Start(startInfo);          
         }
 
@@ -280,7 +281,7 @@ namespace SecureBackup
             ProcessStartInfo startInfo = new ProcessStartInfo();
             //startInfo.WindowStyle = ProcessWindowStyle.Hidden;
             startInfo.FileName = "SecureBackupExplorer.exe";
-            startInfo.Arguments = line.Split('|')[0] + " " + line.Split('|')[1] + " " + line.Split('|')[2] + " " + line.Split('|')[3] + " " + line.Split('|')[4] + " \"" + line.Split('|')[5] + "\" \"" + line.Split('|')[6] + "\" " + line.Split('|')[7] + " \"" + listBox1.SelectedItem.ToString() + "\"";
+            startInfo.Arguments = line.Split('|')[0] + " " + line.Split('|')[1] + " " + line.Split('|')[2] + " " + line.Split('|')[3] + " " + line.Split('|')[4] + " \"" + cleanPathClass.cleanPath(line.Split('|')[5]) + "\" \"" + line.Split('|')[6] + "\" " + line.Split('|')[7] + " \"" + listBox1.SelectedItem.ToString() + "\"";
             var process = Process.Start(startInfo);
         }
 

@@ -105,6 +105,10 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\cleanPathLib\cleanPathLib.csproj">
+      <Project>{f2076d6d-b4f5-477d-ad54-766b8c0b1c2d}</Project>
+      <Name>cleanPathLib</Name>
+    </ProjectReference>
     <ProjectReference Include="..\memStorageLib\memStorageLib.csproj">
       <Project>{945e22ee-23a0-46f6-ad4b-6168e0c0ae96}</Project>
       <Name>memStorageLib</Name>

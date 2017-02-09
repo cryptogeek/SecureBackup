@@ -12,15 +12,24 @@ namespace delEmptyDirsLib
         //supression dossiers vides
         public static void delEmptyDirs(string startLocation)
         {
-            foreach (var directory in Directory.GetDirectories(startLocation))
+            try
             {
-                delEmptyDirs(directory);
-                if (Directory.GetFiles(directory).Length == 0 &&
-                    Directory.GetDirectories(directory).Length == 0)
+                foreach (var directory in Directory.GetDirectories(startLocation))
                 {
-                    Directory.Delete(directory, false);
+                    delEmptyDirs(directory);
+
+                    try
+                    {
+                        if (Directory.GetFiles(directory).Length == 0 &&
+                        Directory.GetDirectories(directory).Length == 0)
+                        {
+                            Directory.Delete(directory, false);
+                        }
+                    }
+                    catch { }
                 }
             }
+            catch { }
         }
     }
 }

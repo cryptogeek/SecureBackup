@@ -1,3 +1,6 @@
+10.02.2017 v1.2.2
+-Fixed bug: unable to backup root drive
+
 15.1.2017 v1.2.1
 -Optimisation: WinSCP now doesn't open connection to server unless needed
 -Behaviour removed: delete local settings if backup is missing from server

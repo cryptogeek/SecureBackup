@@ -119,7 +119,8 @@ namespace SecureBackupExecution
                     {
                         DateTime date = File.GetLastWriteTime(file);
                         long size = new System.IO.FileInfo(file).Length;
-                        localFilesList.Add(file.Replace(source, "") + "|" + DateTimeToUnixTimestamp(date) + "|" + size);
+                        if (!file.Contains("$RECYCLE.BIN") && !file.Contains("System Volume Information"))
+                        localFilesList.Add((@"\" + file.Replace(source, "")).Replace(@"\\", @"\") + "|" + DateTimeToUnixTimestamp(date) + "|" + size);
                     }
                     catch { }
                 }
@@ -127,8 +128,11 @@ namespace SecureBackupExecution
                 // Push the subdirectories onto the stack for traversal.
                 // This could also be done before handing the files.
                 foreach (string str in subDirs) {
-                    localDirList.Add(str.Replace(source,""));
-                    dirs.Push(str);
+                    if (!str.Contains("$RECYCLE.BIN") && !str.Contains("System Volume Information"))
+                    {
+                        localDirList.Add((@"\" + str.Replace(source, "")).Replace(@"\\", @"\"));
+                        dirs.Push(str);
+                    }
                 }
             }
         }
@@ -373,6 +377,8 @@ namespace SecureBackupExecution
             backupName = args[9];
 
             maxBackups = args[10];
+
+           
 
             string argsLine = string.Join(",", args);
 
@@ -651,7 +657,7 @@ namespace SecureBackupExecution
                 getTicketClass.status=0;
                 ///////////////
             }
-            
+           
             //liste avec: chemin relatif fichier|date modif fichier non encrypté|nom encrypté fichier|taille fichier non encrypté
             remoteFilesListReader = new StreamReader(fileDBLocalPath);
             //List<string> remoteFilesListFull = new List<string>();
@@ -683,7 +689,7 @@ namespace SecureBackupExecution
                 remoteDirs.Add(line);
             }
             reader.Close();
-
+           
             writeToLog(multiLangClass.getText(6), Color.Lime);
             customGetFiles(source);
 
@@ -759,7 +765,7 @@ namespace SecureBackupExecution
 
                         //ajoute suppression au log
                         writer = new StreamWriter(fileLogLocalPath, true); //true = append
-                        writer.WriteLine(backupTime + "|0|" + remoteFile.Split('|')[0] + "|" + remoteFile.Split('|')[1] + "|" + remoteFilesListFull[ii].Split('|')[2] + "|" + remoteFilesListFull[ii].Split('|')[3]);
+                        writer.WriteLine(backupTime + "|0|" + (@"\" + remoteFile.Split('|')[0]).Replace(@"\\", @"\") + "|" + remoteFile.Split('|')[1] + "|" + remoteFilesListFull[ii].Split('|')[2] + "|" + remoteFilesListFull[ii].Split('|')[3]);
                         writer.Close();
 
                         File.Create(filesChanged).Dispose();
@@ -827,11 +833,11 @@ namespace SecureBackupExecution
                     File.Create(workDir + @"\DbOp").Dispose();
 
                         writer = new StreamWriter(fileDBLocalPath, true); //true = append
-                        writer.WriteLine(localFilesList[ii].Split('|')[0].Replace(source,"") + "|"+ localFilesList[ii].Split('|')[1] + "|" + Path.GetFileName(encryptedFile) + "|" + localFilesList[ii].Split('|')[2] );
+                        writer.WriteLine(localFilesList[ii].Split('|')[0].Replace(source, "") + "|"+ localFilesList[ii].Split('|')[1] + "|" + Path.GetFileName(encryptedFile) + "|" + localFilesList[ii].Split('|')[2] );
                         writer.Close();
 
                         writer = new StreamWriter(fileLogLocalPath, true); //true = append
-                        writer.WriteLine(backupTime+"|1|"+localFilesList[ii].Split('|')[0].Replace(source, "") + "|" + localFilesList[ii].Split('|')[1] + "|" + Path.GetFileName(encryptedFile) + "|" + localFilesList[ii].Split('|')[2] );
+                        writer.WriteLine(backupTime+"|1|"+ localFilesList[ii].Split('|')[0].Replace(source, "") + "|" + localFilesList[ii].Split('|')[1] + "|" + Path.GetFileName(encryptedFile) + "|" + localFilesList[ii].Split('|')[2] );
                         writer.Close();
 
                         File.Create(filesChanged).Dispose();
