@@ -95,6 +95,7 @@ namespace SecureBackup
             label2.Text = multiLangClass.getText(7);
             button1.Text = multiLangClass.getText(47);
             button2.Text = multiLangClass.getText(50);
+            button3.Text = multiLangClass.getText(51);
         }
 
         List<string> availableLangsList = new List<string>();
@@ -155,6 +156,7 @@ namespace SecureBackup
                 buttonExec.Enabled = true;
                 buttonExplo.Enabled = true;
                 buttonLog.Enabled = true;
+                button3.Enabled = true;
             }
             
         }
@@ -346,6 +348,18 @@ namespace SecureBackup
         private void button2_Click(object sender, EventArgs e)
         {
             Process.Start("notepad.exe", "backupFailed.bat");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string localAppdata = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
+            string workDir = localAppdata + @"\SecureBackupWorkDirBackup " + listBox1.SelectedItem.ToString();
+
+            ProcessStartInfo startInfo = new ProcessStartInfo();
+            //startInfo.WindowStyle = ProcessWindowStyle.Hidden;
+            startInfo.FileName = "explorer.exe";
+            startInfo.Arguments = workDir;
+            var process = Process.Start(startInfo);
         }
     }
 }

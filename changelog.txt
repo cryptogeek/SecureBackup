@@ -1,3 +1,6 @@
+14.02.2017 v1.3.2
+-Added button in main GUI to open temp folder of backups
+
 10.02.2017 v1.2.2
 -Fixed bug: unable to backup root drive
 
