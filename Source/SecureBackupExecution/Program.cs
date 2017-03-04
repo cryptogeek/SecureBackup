@@ -38,6 +38,7 @@ namespace SecureBackupExecution
 
         //dossier de travail
         static string workDir;
+        static string uploadDir;
 
         static void error() {
             Process.Start(execDir+@"\backupFailed.bat");
@@ -139,7 +140,7 @@ namespace SecureBackupExecution
 
         static string encryptFile(string file,string pass,string output)
         {
-            tryDeleteFileUntilSuccess(workDir + "\\"+output);
+            tryDeleteFileUntilSuccess(output);
             try
             {
                 ProcessStartInfo startInfo = new ProcessStartInfo();
@@ -147,9 +148,9 @@ namespace SecureBackupExecution
                 startInfo.UseShellExecute = false;
                 startInfo.FileName = execDir + @"\7-Zip\7z.exe";
                 if(file.EndsWith(".txt")) {
-                    startInfo.Arguments = " a \"" + workDir + "\\" + output + "\" -p" + pass + " -mhe -mx9 \"" + file + "\"";
+                    startInfo.Arguments = " a \"" + output + "\" -p" + pass + " -mhe -mx9 \"" + file + "\"";
                 }else {
-                    startInfo.Arguments = " a \"" + workDir + "\\" + output + "\" -p" + pass + " -mhe -mx0 \"" + file + "\"";
+                    startInfo.Arguments = " a \"" + output + "\" -p" + pass + " -mhe -mx0 \"" + file + "\"";
                 }
 
                 int done=0;
@@ -161,7 +162,7 @@ namespace SecureBackupExecution
                     if(process.ExitCode==0) {
                         done=1;
                     }else {
-                        tryDeleteFileUntilSuccess(workDir + "\\"+output);
+                        tryDeleteFileUntilSuccess(output);
                         if(tries==0) return "error";
                         writeToLog(multiLangClass.getText(1).Replace("$1",tries.ToString())+" "+ file, Color.Red);
                         Thread.Sleep(1000);
@@ -177,7 +178,7 @@ namespace SecureBackupExecution
 
             //writeToLog("Process exit code: {0}", process.ExitCode);
 
-            return workDir + "\\"+output;
+            return output;
         }
 
         static void decryptFile(string file, string pass)
@@ -268,21 +269,6 @@ namespace SecureBackupExecution
                 try
                 {
                     File.Delete(file);
-                }
-                catch {
-                    Thread.Sleep(100);
-                }
-                
-            }
-        } 
-
-        static void tryDeleteDirUntilSuccess(string dir)
-        {
-            while (Directory.Exists(dir))
-            {
-                try
-                {
-                    Directory.Delete(dir);
                 }
                 catch {
                     Thread.Sleep(100);
@@ -408,10 +394,16 @@ namespace SecureBackupExecution
 
             string localAppdata = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
             workDir = localAppdata + @"\SecureBackupWorkDirBackup " + backupName;
+            uploadDir = workDir + @"\uploadDir";
 
             if (!Directory.Exists(workDir))
             {
                 Directory.CreateDirectory(workDir);
+            }
+
+            if (!Directory.Exists(uploadDir))
+            {
+                Directory.CreateDirectory(uploadDir);
             }
 
             session.XmlLogPath = workDir + @"\winSCPLog-"+ Guid.NewGuid() + ".xml";
@@ -734,14 +726,17 @@ namespace SecureBackupExecution
 
             //writeToLog("Continuation des uploads...");
             //List<string> noUpload = new List<string> {"output.7z","db.7z","DirDB.7z","dirLog.7z","log.7z" };
-            foreach(string file in Directory.GetFiles(workDir)) {
+            foreach(string file in Directory.GetFiles(uploadDir)) {
                 //if(file.EndsWith(".7z") && noUpload.FirstOrDefault(l=>file.Contains(l))==null ) {
                 if(remoteFilesListEncryptedFiles.Contains(Path.GetFileName(file))) {
                     //writeToLog(multiLangClass.getText(9)+" " + file, Color.Lime);
                     fileTransferring=file;
                     uploadFile(file,session,sessionOptions);
                     writeToLog("", Color.Aqua);
-                    var t = Task.Run( () => tryDeleteFileUntilSuccess(file) );
+                    tryDeleteFileUntilSuccess(file);
+                }else
+                {
+                    tryDeleteFileUntilSuccess(file);
                 }
             }
 
@@ -819,13 +814,13 @@ namespace SecureBackupExecution
                     writeToLog(multiLangClass.getText(11)+" " + localFilePath, Color.Lime);
                     encryptedFile="";
                    
-                    encryptedFile = encryptFile(localFilePath, encryptionKey, Guid.NewGuid() + ".7z");
+                    encryptedFile = encryptFile(localFilePath, encryptionKey, uploadDir+"\\"+Guid.NewGuid() + ".7z");
                    
                     if (encryptedFile=="error") {
                         //writeToLog(localFilePath+" est utilisé par une autre application. Ignoré.");
                         continue;
                     }
-                    
+
                     File.Delete(fileDBLocalPath + ".good");
                     File.Copy(fileDBLocalPath, fileDBLocalPath + ".good");
                     File.Delete(fileLogLocalPath + ".good");
@@ -847,7 +842,7 @@ namespace SecureBackupExecution
                     fileTransferring= encryptedFile;
                     uploadFile(encryptedFile, session, sessionOptions);
                     writeToLog("", Color.Aqua);
-                    var t = Task.Run( () => tryDeleteFileUntilSuccess(encryptedFile) );
+                    tryDeleteFileUntilSuccess(encryptedFile);
                     
                 }
             }
@@ -1009,15 +1004,15 @@ namespace SecureBackupExecution
             ////////////////////////
             if (File.Exists(filesChanged)){
                    
-                encryptFile(fileDBLocalPath, encryptionKey, fileDBArchiveName+ext);
-                encryptFile(fileLogLocalPath, encryptionKey, fileLogArchiveName+ext);
+                encryptFile(fileDBLocalPath, encryptionKey, workDir+"\\"+fileDBArchiveName+ext);
+                encryptFile(fileLogLocalPath, encryptionKey, workDir + "\\" + fileLogArchiveName +ext);
                    
             }
 
             if (File.Exists(dirsChanged))
             {
-                encryptFile(dirDBLocalPath, encryptionKey, dirDBArchiveName + ext);
-                encryptFile(dirLogLocalPath, encryptionKey, dirLogArchiveName + ext);
+                encryptFile(dirDBLocalPath, encryptionKey, workDir + "\\" + dirDBArchiveName + ext);
+                encryptFile(dirLogLocalPath, encryptionKey, workDir + "\\" + dirLogArchiveName + ext);
             } 
             /////////////////
             

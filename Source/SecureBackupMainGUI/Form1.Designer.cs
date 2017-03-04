@@ -200,7 +200,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(31, 13);
             this.label3.TabIndex = 16;
-            this.label3.Text = "1.3.2";
+            this.label3.Text = "1.3.3";
             // 
             // comboBoxLang
             // 

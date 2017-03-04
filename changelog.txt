@@ -1,3 +1,6 @@
+04.03.2017 v1.3.3
+-Better cleaning of temp folders
+
 14.02.2017 v1.3.2
 -Added button in main GUI to open temp folder of backups
 
