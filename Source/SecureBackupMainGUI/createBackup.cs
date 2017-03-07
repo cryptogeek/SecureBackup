@@ -41,8 +41,11 @@ namespace SecureBackup
                     MessageBox.Show(multiLangClass.getText(32));
                     return;
             }
-            
-            
+
+            if (sshForm.Text == "") sshForm.Text = "Any";
+           
+            if (sftpPassForm.Text == "") sftpPassForm.Text = "********************";
+
             if (!Directory.Exists("backupParams"))
             {
                 Directory.CreateDirectory("backupParams");
@@ -51,7 +54,7 @@ namespace SecureBackup
             if (!File.Exists(file)) File.Create(file).Dispose();
 
             StreamWriter writer = new StreamWriter(file, false); //true = append
-            writer.WriteLine(ipForm.Text+"|"+portForm.Text + "|" + sshForm.Text + "|" + userForm.Text + "|" + sftpPassForm.Text + "|" +sourceForm.Text + "|" +destForm.Text + "|" +encKeyForm.Text + "|" + intervalForm.Text + "|" + autoBackup.Checked + "|" + textBoxMaxBackups.Text+ "|<uploadLimitParam>" + textBoxuploadSpeedLimit.Text+ "<uploadLimitParam>");
+            writer.WriteLine(ipForm.Text+"|"+portForm.Text + "|" + sshForm.Text + "|" + userForm.Text + "|" + sftpPassForm.Text + "|" +sourceForm.Text + "|" +destForm.Text + "|" +encKeyForm.Text + "|" + intervalForm.Text + "|" + autoBackup.Checked + "|" + textBoxMaxBackups.Text+ "|<uploadLimitParam>" + textBoxuploadSpeedLimit.Text+ "<uploadLimitParam>" + "<ignoreSSHFingerprint>" + checkBox1.Checked + "<ignoreSSHFingerprint>" + "<SSHprivateKey>" + textBox2.Text + "<SSHprivateKey>");
             writer.Close();
 
             //signal recheck  
@@ -88,9 +91,24 @@ namespace SecureBackup
                 HostName = ipForm.Text,
                 UserName = userForm.Text,
                 Password = sftpPassForm.Text,
-                SshHostKeyFingerprint = "ssh-rsa 2048 " + sshForm.Text,
                 PortNumber = int.Parse(portForm.Text)
             };
+
+
+            if (checkBox1.Checked)
+            {
+                sessionOptions.GiveUpSecurityAndAcceptAnySshHostKey = true;
+            }
+            else
+            {
+                sessionOptions.SshHostKeyFingerprint = "ssh-rsa 2048 " + sshForm.Text;
+            }
+
+            //ssh private key
+            if (textBox2.Text != "")
+            {
+                sessionOptions.SshPrivateKeyPath = textBox2.Text;
+            }
 
             //connexion sftp
             Session session = new Session();
@@ -132,11 +150,37 @@ namespace SecureBackup
             this.Text = multiLangClass.getText(30);
             label15.Text = multiLangClass.getText(36);
             label16.Text = multiLangClass.getText(27);
+            checkBox1.Text = multiLangClass.getText(37);
+            label17.Text = multiLangClass.getText(38);
+            button5.Text = multiLangClass.getText(39);
         }
 
         private void label15_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            using (FileDialog fileDialog = new OpenFileDialog())
+            {
+                if (DialogResult.OK == fileDialog.ShowDialog())
+                {
+                    textBox2.Text = fileDialog.FileName;
+                }
+            }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            ProcessStartInfo startInfo = new ProcessStartInfo();
+            //startInfo.WindowStyle = ProcessWindowStyle.Hidden;
+            startInfo.FileName = "puttygen.exe";
+            var process = Process.Start(startInfo);
         }
     }
 }

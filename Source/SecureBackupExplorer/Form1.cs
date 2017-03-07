@@ -15,6 +15,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using getParamValueLib;
 
 //libraire SFTP
 using WinSCP;
@@ -157,9 +158,28 @@ namespace SecureBackupExplorer
                 HostName = ip,
                 UserName = user,
                 Password = pass,
-                SshHostKeyFingerprint = "ssh-rsa 2048 " + key,
                 PortNumber = port
             };
+
+            string argsLine = string.Join(" ", args);
+
+            if (getParamValueClass.getParamValue(argsLine, "<ignoreSSHFingerprint>") == "True")
+            {
+                sessionOptions.GiveUpSecurityAndAcceptAnySshHostKey = true;
+            }
+            else
+            {
+                sessionOptions.SshHostKeyFingerprint = "ssh-rsa 2048 " + key;
+            }
+
+            string SSHprivateKey = getParamValueClass.getParamValue(argsLine, "<SSHprivateKey>");
+            if (SSHprivateKey != "<notFound>")
+            {
+                if (SSHprivateKey != "")
+                {
+                    sessionOptions.SshPrivateKeyPath = SSHprivateKey;
+                }
+            }
 
             //connexion sftp
             Session session = new Session();
@@ -645,9 +665,30 @@ namespace SecureBackupExplorer
                     HostName = ip,
                     UserName = user,
                     Password = pass,
-                    SshHostKeyFingerprint = "ssh-rsa 2048 " + key,
                     PortNumber = port
                 };
+
+                string[] args = Environment.GetCommandLineArgs();
+
+                string argsLine = string.Join(" ", args);
+
+                if (getParamValueClass.getParamValue(argsLine, "<ignoreSSHFingerprint>") == "True")
+                {
+                    sessionOptions.GiveUpSecurityAndAcceptAnySshHostKey = true;
+                }
+                else
+                {
+                    sessionOptions.SshHostKeyFingerprint = "ssh-rsa 2048 " + key;
+                }
+
+                string SSHprivateKey = getParamValueClass.getParamValue(argsLine, "<SSHprivateKey>");
+                if (SSHprivateKey != "<notFound>")
+                {
+                    if (SSHprivateKey != "")
+                    {
+                        sessionOptions.SshPrivateKeyPath = SSHprivateKey;
+                    }
+                }
 
                 Session session = new Session();
 

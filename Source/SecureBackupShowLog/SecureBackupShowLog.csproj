@@ -55,6 +55,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\getParamValueLib\getParamValueLib.csproj">
+      <Project>{8591dd7e-4680-42d6-9f5b-3e00879704ce}</Project>
+      <Name>getParamValueLib</Name>
+    </ProjectReference>
     <ProjectReference Include="..\getTicketLib\getTicketLib.csproj">
       <Project>{113ee385-f9ee-46da-9948-bac9d75c300a}</Project>
       <Name>getTicketLib</Name>

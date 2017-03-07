@@ -77,3 +77,5 @@ E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2
 E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2.0\SecureBackupMainGUI\obj\Release\SecureBackupMainGUI.pdb
 E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2.0\SecureBackupMainGUI\bin\Release\cleanPathLib.dll
 E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2.0\SecureBackupMainGUI\bin\Release\cleanPathLib.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2.0\SecureBackupMainGUI\bin\Release\getParamValueLib.dll
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2.0\SecureBackupMainGUI\bin\Release\getParamValueLib.pdb

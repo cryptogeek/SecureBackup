@@ -129,3 +129,5 @@ E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2
 E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2.0\SecureBackupExplorer\obj\Release\SecureBackupExplorer.csproj.GenerateResource.Cache
 E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2.0\SecureBackupExplorer\obj\Release\SecureBackupExplorer.exe
 E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2.0\SecureBackupExplorer\obj\Release\SecureBackupExplorer.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2.0\SecureBackupExplorer\bin\Release\getParamValueLib.dll
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2.0\SecureBackupExplorer\bin\Release\getParamValueLib.pdb

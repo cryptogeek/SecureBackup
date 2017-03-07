@@ -16,6 +16,7 @@ using System.Net.Mail;
 using getTicketLib;
 using multiLangLib;
 using nukeDirLib;
+using getParamValueLib;
 
 namespace SecureBackupExecution
 {
@@ -293,20 +294,6 @@ namespace SecureBackupExecution
             }catch { }
         }
 
-        static string getParamValue(String line, string paramName)
-        {
-            int startOfString = line.IndexOf(paramName);
-            if (startOfString > -1)
-            {
-                int lengthOfString = line.LastIndexOf(paramName) - startOfString;
-                return line.Substring(startOfString, lengthOfString).Replace(paramName, "");
-            }
-            else
-            {
-                return "<notFound>";
-            }
-        }
-
         static void openSessionIfNeeded(Session session, SessionOptions sessionOptions) {
             try
             {
@@ -364,27 +351,43 @@ namespace SecureBackupExecution
 
             maxBackups = args[10];
 
-           
-
-            string argsLine = string.Join(",", args);
-
-            if (getParamValue(argsLine, "<uploadLimitParam>") != "<notFound>")
-            {
-                uploadSpeedLimit = Convert.ToInt32(getParamValue(argsLine, "<uploadLimitParam>"));
-            }else
-            {
-                uploadSpeedLimit = 0;
-            }
-
             SessionOptions sessionOptions = new SessionOptions
             {
                 Protocol = Protocol.Sftp,
                 HostName = ip,
                 UserName = user,
                 Password = pass,
-                SshHostKeyFingerprint = "ssh-rsa 2048 " + key,
                 PortNumber = port
             };
+
+            string argsLine = string.Join(" ", args);
+
+            if (getParamValueClass.getParamValue(argsLine, "<ignoreSSHFingerprint>") == "True")
+            {
+               sessionOptions.GiveUpSecurityAndAcceptAnySshHostKey = true;
+            }
+            else
+            {
+                sessionOptions.SshHostKeyFingerprint = "ssh-rsa 2048 " + key;
+            }
+
+            if (getParamValueClass.getParamValue(argsLine, "<uploadLimitParam>") != "<notFound>")
+            {
+                uploadSpeedLimit = Convert.ToInt32(getParamValueClass.getParamValue(argsLine, "<uploadLimitParam>"));
+            }
+            else
+            {
+                uploadSpeedLimit = 0;
+            }
+
+            string SSHprivateKey = getParamValueClass.getParamValue(argsLine, "<SSHprivateKey>");
+            if (SSHprivateKey != "<notFound>")
+            {
+                if (SSHprivateKey != "")
+                {
+                    sessionOptions.SshPrivateKeyPath = SSHprivateKey;
+                }
+            }
 
             Session session = new Session();
 

@@ -15,6 +15,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using getParamValueLib;
 
 namespace SecureBackup
 {
@@ -161,22 +162,6 @@ namespace SecureBackup
             
         }
 
-
-        private string getParamValue(String line,string paramName)
-        {
-            int startOfString = line.IndexOf(paramName);
-            if (startOfString > -1)
-            {
-                int lengthOfString = line.LastIndexOf(paramName) - startOfString;
-                return line.Substring(startOfString, lengthOfString).Replace(paramName, "");
-            }else
-            {
-                return "<notFound>";
-            }
-        }
-
-        
-
         private void buttonEdit_Click(object sender, EventArgs e)
         {
             createBackup cbp = new createBackup();
@@ -205,13 +190,30 @@ namespace SecureBackup
                 cbp.textBoxMaxBackups.Text=line.Split('|')[10];
 
                 //upload limit
-                if (getParamValue(line, "<uploadLimitParam>") != "<notFound>")
+                if (getParamValueClass.getParamValue(line, "<uploadLimitParam>") != "<notFound>")
                 {
-                    cbp.textBoxuploadSpeedLimit.Text = getParamValue(line, "<uploadLimitParam>");
+                    cbp.textBoxuploadSpeedLimit.Text = getParamValueClass.getParamValue(line, "<uploadLimitParam>");
                 }else
                 {
                     cbp.textBoxuploadSpeedLimit.Text = "0";
                 }
+
+                //ignoreSSHFingerprint
+                if (getParamValueClass.getParamValue(line, "<ignoreSSHFingerprint>") != "<notFound>")
+                {
+                    cbp.checkBox1.Checked = Convert.ToBoolean(getParamValueClass.getParamValue(line, "<ignoreSSHFingerprint>"));
+                }
+                else
+                {
+                    cbp.checkBox1.Checked = false;
+                }
+
+                //SSHprivateKey
+                if (getParamValueClass.getParamValue(line, "<SSHprivateKey>") != "<notFound>")
+                {
+                    cbp.textBox2.Text = getParamValueClass.getParamValue(line, "<SSHprivateKey>");
+                }
+               
             }
             paramReader.Close();
  
@@ -269,7 +271,7 @@ namespace SecureBackup
             ProcessStartInfo startInfo = new ProcessStartInfo();
             //startInfo.WindowStyle = ProcessWindowStyle.Hidden;
             startInfo.FileName = "SecureBackupShowLog.exe";
-            startInfo.Arguments = line.Split('|')[0] + " " + line.Split('|')[1] + " " + line.Split('|')[2] + " " + line.Split('|')[3] + " " + line.Split('|')[4] + " \"" + cleanPathClass.cleanPath(line.Split('|')[5]) + "\" \"" + line.Split('|')[6] + "\" " + line.Split('|')[7] + " \"" + listBox1.SelectedItem.ToString() + "\"";
+            startInfo.Arguments = line.Split('|')[0] + " " + line.Split('|')[1] + " " + line.Split('|')[2] + " " + line.Split('|')[3] + " " + line.Split('|')[4] + " \"" + cleanPathClass.cleanPath(line.Split('|')[5]) + "\" \"" + line.Split('|')[6] + "\" " + line.Split('|')[7] + " \"" + listBox1.SelectedItem.ToString() + "\"" + " " + line;
             var process = Process.Start(startInfo);          
         }
 
@@ -283,7 +285,7 @@ namespace SecureBackup
             ProcessStartInfo startInfo = new ProcessStartInfo();
             //startInfo.WindowStyle = ProcessWindowStyle.Hidden;
             startInfo.FileName = "SecureBackupExplorer.exe";
-            startInfo.Arguments = line.Split('|')[0] + " " + line.Split('|')[1] + " " + line.Split('|')[2] + " " + line.Split('|')[3] + " " + line.Split('|')[4] + " \"" + cleanPathClass.cleanPath(line.Split('|')[5]) + "\" \"" + line.Split('|')[6] + "\" " + line.Split('|')[7] + " \"" + listBox1.SelectedItem.ToString() + "\"";
+            startInfo.Arguments = line.Split('|')[0] + " " + line.Split('|')[1] + " " + line.Split('|')[2] + " " + line.Split('|')[3] + " " + line.Split('|')[4] + " \"" + cleanPathClass.cleanPath(line.Split('|')[5]) + "\" \"" + line.Split('|')[6] + "\" " + line.Split('|')[7] + " \"" + listBox1.SelectedItem.ToString() + "\"" + " " + line;
             var process = Process.Start(startInfo);
         }
 

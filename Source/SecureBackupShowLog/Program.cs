@@ -10,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using getParamValueLib;
 
 using WinSCP;
 
@@ -139,9 +140,28 @@ namespace showLog
                 HostName = ip,
                 UserName = user,
                 Password = pass,
-                SshHostKeyFingerprint = "ssh-rsa 2048 " + key,
                 PortNumber = port
             };
+
+            string argsLine = string.Join(" ", args);
+
+            if (getParamValueClass.getParamValue(argsLine, "<ignoreSSHFingerprint>") == "True")
+            {
+                sessionOptions.GiveUpSecurityAndAcceptAnySshHostKey = true;
+            }
+            else
+            {
+                sessionOptions.SshHostKeyFingerprint = "ssh-rsa 2048 " + key;
+            }
+
+            string SSHprivateKey = getParamValueClass.getParamValue(argsLine, "<SSHprivateKey>");
+            if (SSHprivateKey != "<notFound>")
+            {
+                if (SSHprivateKey != "")
+                {
+                    sessionOptions.SshPrivateKeyPath = SSHprivateKey;
+                }
+            }
 
             //connexion sftp
             Session session = new Session();

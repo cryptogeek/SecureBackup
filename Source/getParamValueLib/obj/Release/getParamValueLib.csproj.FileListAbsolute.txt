@@ -1,0 +1,5 @@
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2.0\getParamValueLib\bin\Release\getParamValueLib.dll
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2.0\getParamValueLib\bin\Release\getParamValueLib.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2.0\getParamValueLib\obj\Release\getParamValueLib.csprojResolveAssemblyReference.cache
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2.0\getParamValueLib\obj\Release\getParamValueLib.dll
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2.0\getParamValueLib\obj\Release\getParamValueLib.pdb
