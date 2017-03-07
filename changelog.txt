@@ -1,3 +1,7 @@
+07.03.2017 v1.4.3 
+-Added option to accept any ssh host key fingerprint
+-Added option to authenticate with SSH private key
+
 04.03.2017 v1.3.3
 -Better cleaning of temp folders
 
