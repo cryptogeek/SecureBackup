@@ -7,3 +7,8 @@ E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1
 E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\nukeDirLib\obj\Release\nukeDirLib.csprojResolveAssemblyReference.cache
 E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\nukeDirLib\obj\Release\nukeDirLib.dll
 E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.1.0\nukeDirLib\obj\Release\nukeDirLib.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2.0\nukeDirLib\bin\Release\nukeDirLib.dll
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2.0\nukeDirLib\bin\Release\nukeDirLib.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2.0\nukeDirLib\obj\Release\nukeDirLib.csprojResolveAssemblyReference.cache
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2.0\nukeDirLib\obj\Release\nukeDirLib.dll
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2.0\nukeDirLib\obj\Release\nukeDirLib.pdb

@@ -200,7 +200,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(31, 13);
             this.label3.TabIndex = 16;
-            this.label3.Text = "1.4.3";
+            this.label3.Text = "1.4.4";
             // 
             // comboBoxLang
             // 
@@ -279,9 +279,9 @@
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Location = new System.Drawing.Point(367, 3);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(109, 25);
+            this.button3.Size = new System.Drawing.Size(114, 25);
             this.button3.TabIndex = 20;
-            this.button3.Text = "Ouvrir fichiers temp";
+            this.button3.Text = "Ouvrir fichiers travail";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 

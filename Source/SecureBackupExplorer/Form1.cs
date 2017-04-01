@@ -391,7 +391,7 @@ namespace SecureBackupExplorer
 
         private void Form1_Shown(object sender, EventArgs e)
         {
-            getBackups();
+            Task.Run(() => getBackups());
         }
 
         private void loadView(string view)

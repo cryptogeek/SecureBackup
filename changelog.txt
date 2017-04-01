@@ -1,3 +1,6 @@
+1.5.2017 1.4.4
+-restoration gui no longer freezes if server is unresponsive
+
 07.03.2017 v1.4.3 
 -Added option to accept any ssh host key fingerprint
 -Added option to authenticate with SSH private key
