@@ -34,3 +34,11 @@ E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2
 E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2.0\SecureBackupQueuedownloadUpload\obj\Release\SecureBackupQueuedownloadUpload.csprojResolveAssemblyReference.cache
 E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2.0\SecureBackupQueuedownloadUpload\obj\Release\SecureBackupQueuedownloadUpload.exe
 E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2.0\SecureBackupQueuedownloadUpload\obj\Release\SecureBackupQueuedownloadUpload.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\SecureBackupQueuedownloadUpload\bin\Release\SecureBackupQueuedownloadUpload.exe.config
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\SecureBackupQueuedownloadUpload\bin\Release\SecureBackupQueuedownloadUpload.exe
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\SecureBackupQueuedownloadUpload\bin\Release\SecureBackupQueuedownloadUpload.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\SecureBackupQueuedownloadUpload\bin\Release\memStorageLib.dll
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\SecureBackupQueuedownloadUpload\bin\Release\memStorageLib.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\SecureBackupQueuedownloadUpload\obj\Release\SecureBackupQueuedownloadUpload.csprojResolveAssemblyReference.cache
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\SecureBackupQueuedownloadUpload\obj\Release\SecureBackupQueuedownloadUpload.exe
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\SecureBackupQueuedownloadUpload\obj\Release\SecureBackupQueuedownloadUpload.pdb

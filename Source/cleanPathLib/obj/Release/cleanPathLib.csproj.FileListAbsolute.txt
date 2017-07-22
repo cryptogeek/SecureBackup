@@ -2,3 +2,7 @@ E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2
 E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2.0\cleanPathLib\bin\Release\cleanPathLib.pdb
 E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2.0\cleanPathLib\obj\Release\cleanPathLib.dll
 E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2.0\cleanPathLib\obj\Release\cleanPathLib.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\cleanPathLib\bin\Release\cleanPathLib.dll
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\cleanPathLib\bin\Release\cleanPathLib.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\cleanPathLib\obj\Release\cleanPathLib.dll
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\cleanPathLib\obj\Release\cleanPathLib.pdb

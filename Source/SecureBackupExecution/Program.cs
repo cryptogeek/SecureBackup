@@ -57,85 +57,96 @@ namespace SecureBackupExecution
         //fonction pour obtenir liste recursive des fichiers et dossiers
         public static void customGetFiles(string root)
         {
-            // Data structure to hold names of subfolders to be
-            // examined for files.
-            Stack<string> dirs = new Stack<string>();
-
-            if (!System.IO.Directory.Exists(root))
+            try
             {
-                throw new ArgumentException();
-            }
-            dirs.Push(root);
+                // Data structure to hold names of subfolders to be
+                // examined for files.
+                Stack<string> dirs = new Stack<string>();
 
-            while (dirs.Count > 0)
-            {
-                string currentDir = dirs.Pop();
-                string[] subDirs;
-                try
+                if (!System.IO.Directory.Exists(root))
                 {
-                    subDirs = System.IO.Directory.GetDirectories(currentDir);
+                    throw new ArgumentException();
                 }
-                // An UnauthorizedAccessException exception will be thrown if we do not have
-                // discovery permission on a folder or file. It may or may not be acceptable 
-                // to ignore the exception and continue enumerating the remaining files and 
-                // folders. It is also possible (but unlikely) that a DirectoryNotFound exception 
-                // will be raised. This will happen if currentDir has been deleted by
-                // another application or thread after our call to Directory.Exists. The 
-                // choice of which exceptions to catch depends entirely on the specific task 
-                // you are intending to perform and also on how much you know with certainty 
-                // about the systems on which this code will run.
-                catch (UnauthorizedAccessException e)
-                {                    
-                    writeToLog(e.Message,Color.Red);
-                    continue;
-                }
-                catch (System.IO.DirectoryNotFoundException e)
-                {
-                    writeToLog(e.Message, Color.Red);
-                    continue;
-                }
+                dirs.Push(root);
 
-                string[] files = null;
-                try
+                while (dirs.Count > 0)
                 {
-                    files = System.IO.Directory.GetFiles(currentDir);
-                }
-
-                catch (UnauthorizedAccessException e)
-                {
-
-                    writeToLog(e.Message, Color.Red);
-                    continue;
-                }
-
-                catch (System.IO.DirectoryNotFoundException e)
-                {
-                    writeToLog(e.Message,Color.Red);
-                    continue;
-                }
-                // Perform the required action on each file here.
-                // Modify this block to perform your required task.
-                foreach (string file in files)
-                {
+                    string currentDir = dirs.Pop();
+                    string[] subDirs;
                     try
                     {
-                        DateTime date = File.GetLastWriteTime(file);
-                        long size = new System.IO.FileInfo(file).Length;
-                        if (!file.Contains("$RECYCLE.BIN") && !file.Contains("System Volume Information"))
-                        localFilesList.Add((@"\" + file.Replace(source, "")).Replace(@"\\", @"\") + "|" + DateTimeToUnixTimestamp(date) + "|" + size);
+                        subDirs = System.IO.Directory.GetDirectories(currentDir);
                     }
-                    catch { }
-                }
-
-                // Push the subdirectories onto the stack for traversal.
-                // This could also be done before handing the files.
-                foreach (string str in subDirs) {
-                    if (!str.Contains("$RECYCLE.BIN") && !str.Contains("System Volume Information"))
+                    // An UnauthorizedAccessException exception will be thrown if we do not have
+                    // discovery permission on a folder or file. It may or may not be acceptable 
+                    // to ignore the exception and continue enumerating the remaining files and 
+                    // folders. It is also possible (but unlikely) that a DirectoryNotFound exception 
+                    // will be raised. This will happen if currentDir has been deleted by
+                    // another application or thread after our call to Directory.Exists. The 
+                    // choice of which exceptions to catch depends entirely on the specific task 
+                    // you are intending to perform and also on how much you know with certainty 
+                    // about the systems on which this code will run.
+                    catch (UnauthorizedAccessException e)
                     {
-                        localDirList.Add((@"\" + str.Replace(source, "")).Replace(@"\\", @"\"));
-                        dirs.Push(str);
+                        writeToLog(e.Message, Color.Red);
+                        continue;
+                    }
+                    catch (System.IO.DirectoryNotFoundException e)
+                    {
+                        writeToLog(e.Message, Color.Red);
+                        continue;
+                    }
+
+                    string[] files = null;
+                    try
+                    {
+                        files = System.IO.Directory.GetFiles(currentDir);
+                    }
+
+                    catch (UnauthorizedAccessException e)
+                    {
+
+                        writeToLog(e.Message, Color.Red);
+                        continue;
+                    }
+
+                    catch (System.IO.DirectoryNotFoundException e)
+                    {
+                        writeToLog(e.Message, Color.Red);
+                        continue;
+                    }
+                    // Perform the required action on each file here.
+                    // Modify this block to perform your required task.
+                    foreach (string file in files)
+                    {
+                        try
+                        {
+                            DateTime date = File.GetLastWriteTime(file);
+                            long size = new System.IO.FileInfo(file).Length;
+                            if (!file.Contains("$RECYCLE.BIN") && !file.Contains("System Volume Information"))
+                                localFilesList.Add((@"\" + file.Replace(source, "")).Replace(@"\\", @"\") + "|" + DateTimeToUnixTimestamp(date) + "|" + size);
+                        }
+                        catch { }
+                    }
+
+                    // Push the subdirectories onto the stack for traversal.
+                    // This could also be done before handing the files.
+                    foreach (string str in subDirs)
+                    {
+                        if (!str.Contains("$RECYCLE.BIN") && !str.Contains("System Volume Information"))
+                        {
+                            localDirList.Add((@"\" + str.Replace(source, "")).Replace(@"\\", @"\"));
+                            dirs.Push(str);
+                        }
                     }
                 }
+            }
+            catch (Exception er)
+            {
+                writeToLog("Error: " + er, Color.Red);
+                error();
+                MessageBox.Show(er.ToString());
+                Environment.Exit(1);
             }
         }
 

@@ -12,3 +12,8 @@ E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2
 E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2.0\memStorageLib\obj\Release\memStorageLib.csprojResolveAssemblyReference.cache
 E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2.0\memStorageLib\obj\Release\memStorageLib.dll
 E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\1.2.0\memStorageLib\obj\Release\memStorageLib.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\memStorageLib\bin\Release\memStorageLib.dll
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\memStorageLib\bin\Release\memStorageLib.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\memStorageLib\obj\Release\memStorageLib.csprojResolveAssemblyReference.cache
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\memStorageLib\obj\Release\memStorageLib.dll
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\memStorageLib\obj\Release\memStorageLib.pdb
