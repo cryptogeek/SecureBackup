@@ -57,7 +57,7 @@ namespace SecureBackup
             writer.WriteLine(ipForm.Text+"|"+portForm.Text + "|" + sshForm.Text + "|" + userForm.Text + "|" + sftpPassForm.Text + "|" +sourceForm.Text + "|" +destForm.Text + "|" +encKeyForm.Text + "|" + intervalForm.Text + "|" + autoBackup.Checked + "|" + textBoxMaxBackups.Text+ "|<uploadLimitParam>" + textBoxuploadSpeedLimit.Text+ "<uploadLimitParam>" + "<ignoreSSHFingerprint>" + checkBox1.Checked + "<ignoreSSHFingerprint>" + "<SSHprivateKey>" + textBox2.Text + "<SSHprivateKey>");
             writer.Close();
 
-            //signal recheck  
+            //signal queue to recheck auto jobs
             string memFileName = "SecureBackupQueue-Recheck-z34b5923z5";
             int memFileBytes = 10000000;
             MemoryMappedFile mmf;

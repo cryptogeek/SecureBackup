@@ -1,3 +1,7 @@
+27.09.2017 2.0.0
+-backup jobs now run in parralel
+-Queue no longer crashes when automatic backup job is deleted
+
 22.7.2017 1.4.5
 -updated winscp to 5.9.5
 -updated puttygen.exe to 0.69

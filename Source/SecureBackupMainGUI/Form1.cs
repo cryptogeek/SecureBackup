@@ -61,29 +61,6 @@ namespace SecureBackup
             cbp.Show();
         }
 
-        private void refreshQueue() {
-            string memFileName = "SecureBackupQueue-queue-z34b5923z5";
-            //int memFileBytes = 10000000;
-            MemoryMappedFile mmf;
-            while(true) {
-                try
-                {
-                    mmf = MemoryMappedFile.OpenExisting(memFileName);
-                    MemoryMappedViewAccessor accessor = mmf.CreateViewAccessor();
-            
-                    //lecture
-                    StringBuilder message = memStorageClass.getMem(accessor);
-
-                    //ecriture
-                    string messageS = message.Replace("/", "").ToString();
-                    labelQueue.Text = messageS;
-                }
-                catch{}
-            
-                Thread.Sleep(1000);
-            }
-        }
-
         void setGuiLang()
         {
             //traduction Form1
@@ -93,7 +70,6 @@ namespace SecureBackup
             buttonExplo.Text = multiLangClass.getText(4);
             buttonLog.Text = multiLangClass.getText(5);
             buttonDel.Text = multiLangClass.getText(6);
-            label2.Text = multiLangClass.getText(7);
             button1.Text = multiLangClass.getText(47);
             button2.Text = multiLangClass.getText(50);
             button3.Text = multiLangClass.getText(51);
@@ -145,8 +121,6 @@ namespace SecureBackup
             refreshList();
 
             //Task.Run( () => showConsoles() );
-
-            Task.Run( () => refreshQueue() );
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -224,8 +198,8 @@ namespace SecureBackup
         {
             string memFileName = "SecureBackupQueue-queue-z34b5923z5";
             int memFileBytes = 1000;
-            MemoryMappedFile mmf=null;
-            bool ok=false;
+            MemoryMappedFile mmf = null;
+            bool ok = false;
             while (!ok)
             {
                 try
@@ -243,9 +217,9 @@ namespace SecureBackup
             MemoryMappedViewAccessor accessor = mmf.CreateViewAccessor();
             //lecture
             StringBuilder message = memStorageClass.getMem(accessor);
-            
+
             //ecriture
-            string messageS = message.Replace("/","") + "|"+listBox1.SelectedItem.ToString()+"|";
+            string messageS = message.Replace("/", "") + "|" + listBox1.SelectedItem.ToString() + "|";
             byte[] asciiBytes = Encoding.ASCII.GetBytes(messageS);
             accessor.WriteArray(0, asciiBytes, 0, asciiBytes.Length);
         }
@@ -256,6 +230,16 @@ namespace SecureBackup
             if (confirmResult == DialogResult.Yes)
             {
                 File.Delete("backupParams\\" + listBox1.SelectedItem.ToString() + ".txt");
+
+                //signal queue to recheck auto jobs
+                string memFileName = "SecureBackupQueue-Recheck-z34b5923z5";
+                int memFileBytes = 10000000;
+                MemoryMappedFile mmf;
+                mmf = MemoryMappedFile.CreateOrOpen(memFileName, memFileBytes);
+                MemoryMappedViewAccessor accessor = mmf.CreateViewAccessor();
+                byte[] asciiBytes = Encoding.ASCII.GetBytes("1");
+                accessor.WriteArray(0, asciiBytes, 0, asciiBytes.Length);
+
                 refreshList();
             }
             

@@ -17,6 +17,7 @@ using getTicketLib;
 using multiLangLib;
 using nukeDirLib;
 using getParamValueLib;
+using memStorageLib;
 
 namespace SecureBackupExecution
 {
@@ -40,6 +41,28 @@ namespace SecureBackupExecution
         //dossier de travail
         static string workDir;
         static string uploadDir;
+
+        static void permaMemLock(string name)
+        {
+            byte[] asciiBytes = Encoding.ASCII.GetBytes("locked");
+
+            string memFileName;
+            int memFileBytes;
+
+            memFileName = name;
+            memFileBytes = 1000;
+            using (MemoryMappedFile mmf = MemoryMappedFile.CreateOrOpen(memFileName, memFileBytes))
+            {
+                using (MemoryMappedViewAccessor accessor = mmf.CreateViewAccessor())
+                {
+                    do
+                    {
+                        accessor.WriteArray(0, asciiBytes, 0, asciiBytes.Length);
+                        Thread.Sleep(100);
+                    } while (true);
+                }
+            }
+        }
 
         static void error() {
             Process.Start(execDir+@"\backupFailed.bat");
@@ -143,9 +166,9 @@ namespace SecureBackupExecution
             }
             catch (Exception er)
             {
-                writeToLog("Error: " + er, Color.Red);
+                writeToLog(multiLangClass.getText(21) + er, Color.Red);
                 error();
-                MessageBox.Show(er.ToString());
+                Thread.Sleep(10000);
                 Environment.Exit(1);
             }
         }
@@ -182,9 +205,9 @@ namespace SecureBackupExecution
                 }
             }catch (Exception er)
             {
-                writeToLog("Error: "+er, Color.Red);
+                writeToLog(multiLangClass.getText(2)+": " +er, Color.Red);
                 error();
-                MessageBox.Show(multiLangClass.getText(2)+" " + file);
+                Thread.Sleep(10000);
                 Environment.Exit(1);
             }
 
@@ -215,9 +238,9 @@ namespace SecureBackupExecution
                 }
             }catch (Exception er)
             {
-                writeToLog("Error: "+er, Color.Red);
+                writeToLog(multiLangClass.getText(3)+": " +er, Color.Red);
                 error();
-                MessageBox.Show(multiLangClass.getText(3)+" " + file);
+                Thread.Sleep(10000);
                 Environment.Exit(1);
             }
         }
@@ -261,9 +284,9 @@ namespace SecureBackupExecution
             }
             catch (Exception er)
             {
-                writeToLog("Error: "+er, Color.Red);
+                writeToLog(er.ToString(), Color.Red);
+                writeToLog(multiLangClass.getText(4) + " " + file, Color.Red);
                 error();
-                Task.Run( ()=>MessageBox.Show(multiLangClass.getText(4)+" " + file) );
                 Thread.Sleep(10000);
                 Environment.Exit(1);
             }
@@ -361,6 +384,31 @@ namespace SecureBackupExecution
             backupName = args[9];
 
             maxBackups = args[10];
+
+            //memLock to prevent same backup running in paralel
+            ///
+                string lockSalt = "secureBackup73zbg937b";
+
+                byte[] asciiBytes = Encoding.ASCII.GetBytes("free");
+
+                string memFileName = backupName + lockSalt;
+                int memFileBytes = 1000;
+                using (MemoryMappedFile mmf = MemoryMappedFile.CreateOrOpen(memFileName, memFileBytes))
+                {
+                    using (MemoryMappedViewAccessor accessor = mmf.CreateViewAccessor())
+                    {
+                        accessor.WriteArray(0, asciiBytes, 0, asciiBytes.Length);
+                        Thread.Sleep(200);
+                        if (!memStorageClass.getMem(accessor).ToString().Contains("free"))
+                        {
+                            //MessageBox.Show("locked");
+                            Environment.Exit(1);
+                        }
+                    }
+                }
+
+                Task.Run(() => permaMemLock(backupName + lockSalt));
+            ///
 
             SessionOptions sessionOptions = new SessionOptions
             {

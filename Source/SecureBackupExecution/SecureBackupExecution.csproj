@@ -96,6 +96,10 @@
       <Project>{113ee385-f9ee-46da-9948-bac9d75c300a}</Project>
       <Name>getTicketLib</Name>
     </ProjectReference>
+    <ProjectReference Include="..\memStorageLib\memStorageLib.csproj">
+      <Project>{945e22ee-23a0-46f6-ad4b-6168e0c0ae96}</Project>
+      <Name>memStorageLib</Name>
+    </ProjectReference>
     <ProjectReference Include="..\multiLangLib\multiLangLib.csproj">
       <Project>{8b98d2db-53a0-498a-9865-ca8c0006610f}</Project>
       <Name>multiLangLib</Name>

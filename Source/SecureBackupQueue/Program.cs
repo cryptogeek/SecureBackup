@@ -141,7 +141,7 @@ namespace SecureBackupQueue
                         foreach (string item in listAuto) listAutoTemp.Add(item);
                         foreach (string item in listAutoTemp)
                         {
-                            if ((i / 60) % Convert.ToUInt32(item.Split('|')[1]) == 0)
+                            if ((i / 2 / 60) % Convert.ToUInt32(item.Split('|')[1]) == 0)
                             {
                                 StreamReader paramReader = new StreamReader(execDir + "\\backupParams\\" + item.Split('|')[0] + ".txt");
                                 string line = paramReader.ReadLine();
@@ -151,20 +151,20 @@ namespace SecureBackupQueue
                                 startInfo.FileName = execDir + "\\SecureBackupExecution.exe";
                                 startInfo.Arguments = line.Split('|')[0] + " " + line.Split('|')[1] + " " + line.Split('|')[2] + " " + line.Split('|')[3] + " " + line.Split('|')[4] + " \"" + cleanPathClass.cleanPath(line.Split('|')[5]) + "\" \"" + line.Split('|')[6] + "\" " + line.Split('|')[7] + " \"" + item.Split('|')[0] + "\" " + line.Split('|')[10] + " "+ line;
                                 var process = Process.Start(startInfo);
-                                process.WaitForExit();
-
                             }
                         }
+
+                        Thread.Sleep(500);
 
                         //execute les taches dans la queue
                         foreach (string item in message.ToString().Replace("/", "").Split('|'))
                         {
                             if (item != "")
                             {
-                                //retire tache de la queue
+                                //retire tache et duplicata de la queue
                                 //string messageS = message.ToString().Replace("|"+item+"|","");
                                 var regex = new Regex(Regex.Escape("|" + item + "|"));
-                                string messageS = regex.Replace(message.ToString(), "", 1);
+                                string messageS = regex.Replace(message.ToString(), "");
                                 string fill = "";
                                 for (int ii = 0; ii < 500; ii++) fill = fill + "/";
                                 byte[] asciiBytes = Encoding.ASCII.GetBytes(fill);
@@ -181,14 +181,13 @@ namespace SecureBackupQueue
                                 startInfo.FileName = execDir + "\\SecureBackupExecution.exe";
                                 startInfo.Arguments = line.Split('|')[0] + " " + line.Split('|')[1] + " " + line.Split('|')[2] + " " + line.Split('|')[3] + " " + line.Split('|')[4] + " \"" + cleanPathClass.cleanPath(line.Split('|')[5]) + "\" \"" + line.Split('|')[6] + "\" " + line.Split('|')[7] + " \"" + item + "\" " + line.Split('|')[10] + " " + line;
                                 var process = Process.Start(startInfo);
-                                process.WaitForExit();
+                                //process.WaitForExit();
+
+                                Thread.Sleep(500);
 
                                 message = memStorageClass.getMem(accessor);
-
                             }
                         }
-
-                        Thread.Sleep(1000);
 
                         i++;
 
