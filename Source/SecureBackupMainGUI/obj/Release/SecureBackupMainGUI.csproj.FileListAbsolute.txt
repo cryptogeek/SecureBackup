@@ -99,3 +99,4 @@ E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\Sec
 E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\SecureBackupMainGUI\obj\Release\SecureBackupMainGUI.csproj.GenerateResource.Cache
 E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\SecureBackupMainGUI\obj\Release\SecureBackupMainGUI.exe
 E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\SecureBackupMainGUI\obj\Release\SecureBackupMainGUI.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\SecureBackupMainGUI\obj\Release\SecureBackupMainGUI.csproj.CoreCompileInputs.cache

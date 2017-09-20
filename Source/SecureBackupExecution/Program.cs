@@ -95,10 +95,10 @@ namespace SecureBackupExecution
                 while (dirs.Count > 0)
                 {
                     string currentDir = dirs.Pop();
-                    string[] subDirs;
+                    string[] subDirs = null;
                     try
-                    {
-                        subDirs = System.IO.Directory.GetDirectories(currentDir);
+                    {                        
+                        subDirs = System.IO.Directory.GetDirectories(currentDir);    
                     }
                     // An UnauthorizedAccessException exception will be thrown if we do not have
                     // discovery permission on a folder or file. It may or may not be acceptable 
@@ -117,7 +117,9 @@ namespace SecureBackupExecution
                     catch (System.IO.DirectoryNotFoundException e)
                     {
                         writeToLog(e.Message, Color.Red);
-                        continue;
+                        error();
+                        MessageBox.Show(e.Message);
+                        Environment.Exit(1);
                     }
 
                     string[] files = null;
@@ -149,7 +151,13 @@ namespace SecureBackupExecution
                             if (!file.Contains("$RECYCLE.BIN") && !file.Contains("System Volume Information"))
                                 localFilesList.Add((@"\" + file.Replace(source, "")).Replace(@"\\", @"\") + "|" + DateTimeToUnixTimestamp(date) + "|" + size);
                         }
-                        catch { }
+                        catch (Exception e)
+                        {
+                            writeToLog(e.Message, Color.Red);
+                            error();
+                            MessageBox.Show(e.Message);
+                            Environment.Exit(1);
+                        }
                     }
 
                     // Push the subdirectories onto the stack for traversal.

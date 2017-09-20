@@ -1,3 +1,7 @@
+21.9.2017 2.0.1
+-now targeting net framework 4.7
+-now correctly cause error when encountering file paths longer than 260 characters instead of failing and continuing silently.
+
 27.09.2017 2.0.0
 -backup jobs now run in parralel
 -Queue no longer crashes when automatic backup job is deleted

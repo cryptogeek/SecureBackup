@@ -17,3 +17,4 @@ E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\nuk
 E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\nukeDirLib\obj\Release\nukeDirLib.csprojResolveAssemblyReference.cache
 E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\nukeDirLib\obj\Release\nukeDirLib.dll
 E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\nukeDirLib\obj\Release\nukeDirLib.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\nukeDirLib\obj\Release\nukeDirLib.csproj.CoreCompileInputs.cache

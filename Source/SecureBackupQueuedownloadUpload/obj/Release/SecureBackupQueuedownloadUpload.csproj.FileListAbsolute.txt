@@ -42,3 +42,4 @@ E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\Sec
 E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\SecureBackupQueuedownloadUpload\obj\Release\SecureBackupQueuedownloadUpload.csprojResolveAssemblyReference.cache
 E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\SecureBackupQueuedownloadUpload\obj\Release\SecureBackupQueuedownloadUpload.exe
 E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\SecureBackupQueuedownloadUpload\obj\Release\SecureBackupQueuedownloadUpload.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\SecureBackupQueuedownloadUpload\obj\Release\SecureBackupQueuedownloadUpload.csproj.CoreCompileInputs.cache

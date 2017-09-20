@@ -151,3 +151,4 @@ E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\Sec
 E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\SecureBackupExecution\obj\Release\SecureBackupExecution.csproj.GenerateResource.Cache
 E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\SecureBackupExecution\obj\Release\SecureBackupExecution.exe
 E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\SecureBackupExecution\obj\Release\SecureBackupExecution.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\SecureBackupExecution\obj\Release\SecureBackupExecution.csproj.CoreCompileInputs.cache

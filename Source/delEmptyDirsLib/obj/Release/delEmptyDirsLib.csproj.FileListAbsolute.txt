@@ -18,3 +18,4 @@ E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\del
 E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\delEmptyDirsLib\obj\Release\delEmptyDirsLib.csprojResolveAssemblyReference.cache
 E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\delEmptyDirsLib\obj\Release\delEmptyDirsLib.dll
 E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\delEmptyDirsLib\obj\Release\delEmptyDirsLib.pdb
+E:\files\a\software\MySoftware\visual studio c#\projects\SecureBackup\Source\delEmptyDirsLib\obj\Release\delEmptyDirsLib.csproj.CoreCompileInputs.cache
