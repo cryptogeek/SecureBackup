@@ -20,15 +20,17 @@ SecureBackup is a program to create encrypted backups from local folders to SFTP
 WinSCP: SFTP file transfers  
 
 # Requirements:
-Microsoft .NET Framework 4.5.2 or above
+Microsoft .NET Framework 4.7 or above
+https://www.microsoft.com/en-us/download/details.aspx?id=55170
 
 # Supported client OS: 
-Windows Vista, 7, 8, 8.1, 10  
-Windows server 2008, 2012, 2016
+Windows 7, 8.1, 10  
+Windows server 2008, 2012, 2016  
 
 # Supported SFTP server: 
-OpenSSH on Ubuntu Server  
-Other SFTP servers
+OpenSSH on Linux (Red Hat, CentOS, Debian, Ubuntu, etc.)  
+You can install any SFTP server of Windows too.  
+Other SFTP servers  
 
 # Screenshots:
 ![SecureBackup](https://raw.githubusercontent.com/cryptogeek/SecureBackup/master/Screenshots/Main.PNG)
