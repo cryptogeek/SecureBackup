@@ -321,19 +321,24 @@ namespace SecureBackupExecution
         }
 
         static void showWindowWhenMainGUIOpen(Session session) {
-            try {
+            
                 while (true) {
                     Process[] proc = Process.GetProcessesByName("SecureBackupMainGUI");
                     if (proc.Length != 0) {
                         Application.EnableVisualStyles();
                         Application.SetCompatibleTextRenderingDefault(false);
                         Application.Run(new Form1());
-                        session.Abort();
+                        while (session.Opened)
+                        {
+                            session.Abort();
+                            Thread.Sleep(500);
+                        }
                         Environment.Exit(1);
+                    
                     }
                     Thread.Sleep(500);
                 }
-            }catch { }
+            
         }
 
         static void openSessionIfNeeded(Session session, SessionOptions sessionOptions) {
@@ -461,6 +466,7 @@ namespace SecureBackupExecution
             session.FileTransferProgress += SessionFileTransferProgress;
 
             Task.Run( ()=> showWindowWhenMainGUIOpen(session) );
+            Thread.Sleep(1000);
 
             string localAppdata = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
             workDir = localAppdata + @"\SecureBackupWorkDirBackup " + backupName;

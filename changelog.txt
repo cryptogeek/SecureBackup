@@ -1,3 +1,7 @@
+05.10.2017 2.0.2
+-SecureBackupExecution.exe now correctly exit when GUI is closed
+-Fixed a case where backup GUI did not show even when backup is running
+
 21.9.2017 2.0.1
 -now targeting net framework 4.7
 -now correctly cause error when encountering file paths longer than 260 characters instead of failing and continuing silently.
